@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="/favicon.ico">
-    <link rel="stylesheet" href="index.css">
-    <title>ふぁぼんのページ</title>
-</head>
-<body>
+export default data =>
     <main role="main">
         <h1>ふぁぼん</h1>
         <picture>
-            <source srcset="img/fabon.webp" width="300" height="300" type="image/webp">
-            <source srcset="img/fabon.png" width="300" height="300" type="image/png">
-            <img src="img/fabon.png" width="300" height="300" alt="ふぁぼんのアイコン">
+            <source srcSet="img/fabon.webp" width="300" height="300" type="image/webp" />
+            <source srcSet="img/fabon.png" width="300" height="300" type="image/png" />
+            <img src="img/fabon.png" width="300" height="300" alt="ふぁぼんのアイコン" />
         </picture>
         <p>オタク。めざせ文理両道インテリゲーンツィヤ</p>
         <h1>経歴</h1>
@@ -80,7 +70,7 @@
         <h1>趣味</h1>
         <p>いろいろ。そこそこ多趣味。</p>
         <ul>
-            <li><span style="text-decoration:line-through;">Twitter</span></li>
+            <li><span style={{textDecoration: "line-through"}}>Twitter</span></li>
             <li>ノベルゲー、ノベルゲー音楽</li>
             <li>ライトノベル、web小説(主に恋愛ものやラブコメ)</li>
             <li>
@@ -113,9 +103,9 @@
         <h1>活動</h1>
         <h2>2021年</h2>
         <ul>
-            <li><time datetime="2021-03-05">3月5日</time>〜<time datetime="2021-03-07">7日</time> <a href="https://esolang-codegolf.hiromi-mi.jp/contests/7">第7回Esolang Codegolf Contest</a> に参加(<a href="https://github.com/hakatashi/esolang-battle/wiki/%E7%AC%AC7%E5%9B%9EEsolang-Codegolf-Contest-Writeup">writeup</a>)</li>
+            <li><time dateTime="2021-03-05">3月5日</time>〜<time dateTime="2021-03-07">7日</time> <a href="https://esolang-codegolf.hiromi-mi.jp/contests/7">第7回Esolang Codegolf Contest</a> に参加(<a href="https://github.com/hakatashi/esolang-battle/wiki/%E7%AC%AC7%E5%9B%9EEsolang-Codegolf-Contest-Writeup">writeup</a>)</li>
             <li><a href="https://twitter.com/ut_vinos">ViNos</a>に入会、FFのきららオタク(21年入学)が立ち上げた<a href="https://utkiraracircle.github.io/">きらら同好会</a>に入会</li>
-            <li><time datetime="2021-05-15">5月15日</time>、<time datetime="2021-05-16">16日</time> <a href="https://tsg.ne.jp/">TSG</a>の生放送特別企画「<a href="https://www.youtube.com/playlist?list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1">TSG LIVE! 6</a>」で<a href="https://www.youtube.com/watch?v=NXchTFJh2Js&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=1&t=576s">オープニング</a>のパーソナリティー、コードゴルフ大会のプレイヤー(<a href="https://www.youtube.com/watch?v=NXchTFJh2Js&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=1&t=13180s">1日目</a>、<a href="https://www.youtube.com/watch?v=oitn3AiP6bM&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=2&t=7734s">2日目</a>)を担当</li>
+            <li><time dateTime="2021-05-15">5月15日</time>、<time dateTime="2021-05-16">16日</time> <a href="https://tsg.ne.jp/">TSG</a>の生放送特別企画「<a href="https://www.youtube.com/playlist?list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1">TSG LIVE! 6</a>」で<a href="https://www.youtube.com/watch?v=NXchTFJh2Js&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=1&t=576s">オープニング</a>のパーソナリティー、コードゴルフ大会のプレイヤー(<a href="https://www.youtube.com/watch?v=NXchTFJh2Js&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=1&t=13180s">1日目</a>、<a href="https://www.youtube.com/watch?v=oitn3AiP6bM&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=2&t=7734s">2日目</a>)を担当</li>
         </ul>
         <h2>2020年(高校卒業以降)</h2>
         <ul>
@@ -176,6 +166,4 @@
             <li>AtCoder(休止中): <a href="https://atcoder.jp/users/fabon">fabon</a></li>
             <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
         </ul>
-    </main>
-</body>
-</html>
+    </main>;
