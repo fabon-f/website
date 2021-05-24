@@ -38,34 +38,9 @@ export default data =>
             <li><a href="https://icho.csj.jp">国際化学オリンピック</a>代表選考 2016(1次選考落ち), 2017(最終(2次)選考落ち)</li>
         </ul>
 
-        <h1>興味</h1>
+        <h1>興味・関心</h1>
         <p>雑食。メインは化学、コンピュータ、ロシア語、歴史学、旧ソ連地域研究。あと数学、物理学、言語学、政治学、社会学、倫理学……</p>
-        <h2>プログラミング・コンピュータ</h2>
-        <p>コンピュータに関する各種理論から実際に動くソフトウェアの実装まで、レイヤの高低問わず興味あり。</p>
-        <ul>
-            <li>2014年、JavaScriptからプログラミングの道に入る</li>
-            <li>故にもともとはweb系のオタク。今は……何者なんだろう……</li>
-            <li><a href="https://www.ruby-lang.org/ja/">Ruby</a>, <a href="https://www.typescriptlang.org">TypeScript</a>, <a href="https://crystal-lang.org">Crystal</a></li>
-            <li>CUI/シェルスクリプト/ワンライナー/シェル芸</li>
-            <li><a href="https://archlinux.org/">Arch Linux</a></li>
-            <li>コードゴルフ</li>
-            <li>VS Code使い。たまにVimもいじる</li>
-            <li><a href="https://github.com/fabon-f/dotfiles">dotfiles</a></li>
-            <li>競プロはやっていない。始める機運がゼロではないが……</li>
-        </ul>
-
-        <h2>自然言語・外国語</h2>
-        <p>母語は日本語。非母語はロシア語しかわからん。英語は平易な文章を読んだり聞いたりはできるが、文構造が複雑な文章を読解したりまともに書いたり話したりはできない。ラテン語、中国語(普通話)、アラビア語、ウズベク語などをかじっては投げ、かじっては投げて今に至る。</p>
-
-        <h2>理系の諸学問(数学・自然科学・工学など)</h2>
-        <p>数学は興味があるものの得意ではない。せめて数学科の1〜2年生レベルの解析学や集合・位相は基礎から厳密な定義と証明を追って丁寧にやりたいと思いつつ、手をつけられないでいる。たとえばデデキントカットのことをかっこいい必殺技だと思ってるレベル。や、正確に言うと、デデキントカット自体はたぶん理解できるが、そこからどう実数を構成するか知らない。あとフーリエ変換みたいな物理学・工学に必要な各種概念・理論も……</p>
-        <p>同様に物理学も、せめて熱力学、解析力学、電磁気学、統計力学、(初歩の)量子力学、相対性理論あたりは丁寧に(以下同文)。</p>
-        <p>化学は好きだが、どちらかというと物理学寄りの分野が特に好き。物理化学が大好きな一方、有機化学は嫌いではないにしろ苦手意識がある。</p>
-        <p>生物学や地学は……興味関心や義務感が全くないわけではないが、高校範囲ですら一切何も分からないし、取っ掛かりが見つからず入門できないでいる。</p>
-        <p>人文社会のオタクでもあるのでいわゆる学際的な分野も好きだと思われそうだが、実はそうでもなかったり……人類学とか人間の脳とか認知・心理とかにも正直あまり興味が持てずにここまで来てしまった。科学技術論はちょっと興味あるかも。</p>
-
-        <h2>人文・社会</h2>
-        <p>専門(?)は歴史学と旧ソ連地域研究。言語学、政治学、社会学に興味あり。哲学・思想も興味がないわけではない。あと、かなり倫理道徳の存在・正当性に懐疑的なので、そのあたりの考えを整理するためにメタ倫理学はやりたいと思っている。芸術論、心理学、文学、宗教学、法学、教育学などはあまり興味がないかもしれない……</p>
+        <p><a href="/interests/">もっと詳しく</a></p>
 
         <h1>趣味</h1>
         <p>いろいろ。そこそこ多趣味。</p>
@@ -100,43 +75,8 @@ export default data =>
                 </ul>
             </li>
         </ul>
-        <h1>活動</h1>
-        <h2>2021年</h2>
-        <ul>
-            <li><time dateTime="2021-03-05">3月5日</time>〜<time dateTime="2021-03-07">7日</time> <a href="https://esolang-codegolf.hiromi-mi.jp/contests/7">第7回Esolang Codegolf Contest</a> に参加(<a href="https://github.com/hakatashi/esolang-battle/wiki/%E7%AC%AC7%E5%9B%9EEsolang-Codegolf-Contest-Writeup">writeup</a>)</li>
-            <li><a href="https://twitter.com/ut_vinos">ViNos</a>に入会、FFのきららオタク(21年入学)が立ち上げた<a href="https://utkiraracircle.github.io/">きらら同好会</a>に入会</li>
-            <li><time dateTime="2021-05-15">5月15日</time>、<time dateTime="2021-05-16">16日</time> <a href="https://tsg.ne.jp/">TSG</a>の生放送特別企画「<a href="https://www.youtube.com/playlist?list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1">TSG LIVE! 6</a>」で<a href="https://www.youtube.com/watch?v=NXchTFJh2Js&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=1&t=576s">オープニング</a>のパーソナリティー、コードゴルフ大会のプレイヤー(<a href="https://www.youtube.com/watch?v=NXchTFJh2Js&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=1&t=13180s">1日目</a>、<a href="https://www.youtube.com/watch?v=oitn3AiP6bM&list=PL4UgdqkjedRD2DI1PcoKF12snw7EG4vj1&index=2&t=7734s">2日目</a>)を担当</li>
-        </ul>
-        <h2>2020年(高校卒業以降)</h2>
-        <ul>
-            <li>東京大学理科一類入学</li>
-            <li><a href="https://tsg.ne.jp">TSG</a>、<a href="https://twitter.com/ut_glossophilia">語学愛好会</a>、<a href="https://twitter.com/kukancolle">京艦同</a>に入部</li>
-            <li><a href="https://adventar.org/calendars/4995">TSG Advent Calendar 2020</a>に参加、10日目の記事として<a href="https://yuyusuki.hatenablog.com/entry/2020/12/11/012727">「今日から始めるdotfiles、そして4年間ずっと使っている自作コマンドの話」</a>を投稿</li>
-            <li>ほぼ完全オンラインの引きこもり状態で理科一類の修羅の1年に耐え生存(なお必修の電磁気は試験に寝坊し落単)</li>
-        </ul>
-        <h2>2020年(高校卒業)以前</h2>
-        <ul>
-            <li><a href="https://www.ioi-jp.org/">日本情報オリンピック(JOI)</a> 予選・本選 2015/2016, 2016/2017, 2018/2019</li>
-            <li><a href="https://gp.csj.jp">化学グランプリ</a> 予選・本選 2016(銅賞), 2019(銅賞)</li>
-            <li><a href="https://icho.csj.jp">国際化学オリンピック</a>代表選考 2016(1次選考落ち), 2017(最終(2次)選考落ち)</li>
-            <li>文化祭でWiiリモコンを使った音ゲー<a href="https://github.com/fabon-f/mushaken">"MUSHAKEN"</a>を展示(2016年)</li>
-            <li>
-                パソコン研究部の部誌に寄稿(2017/18/19年)
-                <ul>
-                    <li>2017年: パーサコンビネータとJSONパーサの実装(フルスクラッチ)</li>
-                    <li>2018年: 文字列検索アルゴリズム(KMP法、接尾辞配列、マルチキークイックソート)</li>
-                    <li>2019年: 部誌執筆を支える技術(<a href="https://reviewml.org/ja/">Re:VIEW</a>、CI、Gitによる共同執筆・編集、プロジェクト管理)</li>
-                </ul>
-            </li>
-            <li>化学研究部の部誌に寄稿(2017年)</li>
-            <li>
-                パソコン研究部の部誌プロジェクトの編集者兼プロマネ(2017/18年)、校閲者(2017/18/19年)
-                <ul>
-                    <li><a href="https://reviewml.org/ja/">Re:VIEW</a>を利用し、LaTeX経由でPDFを、また直接HTMLを出力する仕組み。CIを設定したりしてけっこうハイテクだった。</li>
-                </ul>
-            </li>
-            <li>パソコン研究部のサーバ・ウェブサイト管理者(〜2020年?)</li>
-        </ul>
+        <h1><a href="/activities/">活動</a></h1>
+
         <h1>各種作ったもの</h1>
         <ul>
             <li>このサイト</li>
