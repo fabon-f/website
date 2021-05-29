@@ -1,3 +1,5 @@
+import { ExternalLink } from "../lib/components.tsx"
+
 export const title = "興味・関心"
 
 export default data =>
@@ -8,12 +10,12 @@ export default data =>
         <ul>
             <li>2014年、JavaScriptからプログラミングの道に入る</li>
             <li>故にもともとはweb系のオタク。今は……何者なんだろう……</li>
-            <li><a href="https://www.ruby-lang.org/ja/">Ruby</a>, <a href="https://www.typescriptlang.org">TypeScript</a>, <a href="https://crystal-lang.org">Crystal</a></li>
+            <li><ExternalLink href="https://www.ruby-lang.org/ja/">Ruby</ExternalLink>, <ExternalLink href="https://www.typescriptlang.org">TypeScript</ExternalLink>, <ExternalLink href="https://crystal-lang.org">Crystal</ExternalLink></li>
             <li>CUI/シェルスクリプト/ワンライナー/シェル芸</li>
-            <li><a href="https://archlinux.org/">Arch Linux</a></li>
+            <li><ExternalLink href="https://archlinux.org/">Arch Linux</ExternalLink></li>
             <li>コードゴルフ</li>
             <li>VS Code使い。たまにVimもいじる</li>
-            <li><a href="https://github.com/fabon-f/dotfiles">dotfiles</a></li>
+            <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
             <li>競プロはやっていない。始める機運がゼロではないが……</li>
         </ul>
 
