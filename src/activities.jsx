@@ -40,4 +40,6 @@ export default data =>
             </li>
             <li>パソコン研究部のサーバ・ウェブサイト管理者(〜2020年?)</li>
         </ul>
+
+        <a href="/">トップへ</a>
     </main>

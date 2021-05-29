@@ -48,4 +48,6 @@ export default data =>
 
         <h2>Twitter</h2>
         <p>……「好きなもの」というか、単に中毒?</p>
+
+        <a href="/">トップへ</a>
     </main>

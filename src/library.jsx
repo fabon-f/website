@@ -18,4 +18,5 @@ export default data =>
             <li>私がロシア語に出会った日 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2020/06/17/183743">学士の異常な愛情 または私は如何にして心配するのを止めてロシア語を愛するようになったか</ExternalLink></li>
             <li>新元号「令和」発表記念、クール美少女とゆるふわ美少女の百合の尊さに関する考察 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2019/04/01/232956">私が特別尊いと思うキャラクター(特に女の子同士)の組み合わせについて</ExternalLink></li>
         </ul>
+        <a href="/">トップへ</a>
     </main>;
