@@ -81,4 +81,8 @@ export default data =>
             <li>AtCoder(休止中): <a href="https://atcoder.jp/users/fabon">fabon</a></li>
             <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
         </ul>
+
+        <h1>駄文図書館</h1>
+        <p>自分語り、オタクの早口、性癖開示、限界奇行紀行、その他諸々。どうしようもなく暇なときの暇潰し程度にはなりそうな駄文の集合。</p>
+        <p><a href="/library/">読む</a></p>
     </main>;
