@@ -1,5 +1,7 @@
 import { ExternalLink } from "../lib/components.tsx"
 
+export const title = "駄文図書館"
+
 export default data =>
     <main>
         <h1>駄文図書館</h1>
