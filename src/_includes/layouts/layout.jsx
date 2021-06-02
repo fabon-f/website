@@ -10,7 +10,7 @@ export default ({ children, title, description, url }, filters) =>{
         <meta name="description" content={description || siteName} />
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={description || siteName} />
-        <meta property="og:image" content="/img/fabon.png" />
+        <meta property="og:image" content={filters.url("/img/fabon.png", true)} />
         <meta property="og:url" content={fullUrl} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@syobon_hinata" />
