@@ -1,6 +1,7 @@
 import { ExternalLink } from "../lib/components.tsx"
 
 export const title = "趣味"
+export const description = "ふぁぼんの好きなことについて"
 
 export default data =>
     <main>

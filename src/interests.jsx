@@ -1,6 +1,7 @@
 import { ExternalLink } from "../lib/components.tsx"
 
 export const title = "興味・関心"
+export const description = "ふぁぼんが興味・関心を持っている(主に学問的な)分野について"
 
 export default data =>
     <main>

@@ -1,6 +1,7 @@
 import { ExternalLink } from "../lib/components.tsx"
 
 export const title = "駄文図書館"
+export const description = "ふぁぼんが書いた駄文の集合"
 
 export default data =>
     <main>
