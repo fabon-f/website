@@ -56,7 +56,7 @@ export default data =>
 
         <h1>各種作ったもの</h1>
         <ul>
-            <li>このサイト</li>
+            <li>このサイト (ソース: <ExternalLink href="https://github.com/fabon-f/website">GitHub</ExternalLink>)</li>
             <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">エロゲーマーのための変換用IME辞書 eroge-ime-dic</ExternalLink></li>
             <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
         </ul>
