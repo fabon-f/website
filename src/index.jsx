@@ -73,16 +73,16 @@ export default data =>
             <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
             <li>ブログ: <ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></li>
             <li>GitHub: <ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></li>
+            <li>GitLab.com: <ExternalLink href="https://gitlab.com/fabon">fabon</ExternalLink></li>
             <li>Zenn: <ExternalLink href="https://zenn.dev/fabon">fabon</ExternalLink></li>
             <li>Qiita: <ExternalLink href="https://qiita.com/fabon">fabon</ExternalLink></li>
+            <li>AtCoder(休止中): <ExternalLink href="https://atcoder.jp/users/fabon">fabon</ExternalLink></li>
             <li>ErogameScape: <ExternalLink href="https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/user_infomation.php?user=fabon">fabon</ExternalLink></li>
             <li>Discord: fabon#5185</li>
-            <li>GitLab.com: <ExternalLink href="https://gitlab.com/fabon">fabon</ExternalLink></li>
             <li>Annict: <ExternalLink href="https://annict.jp/@fabon">fabon</ExternalLink></li>
             <li>読書メーター: <ExternalLink href="https://bookmeter.com/users/968503">ふぁぼん</ExternalLink></li>
             <li>ブクログ: <ExternalLink href="https://booklog.jp/users/fabon">fabon</ExternalLink></li>
             <li>読書感想記事: <ExternalLink href="https://yuyusuki.hatenablog.com/archive/category/%E6%9C%AC%E3%81%AE%E6%84%9F%E6%83%B3">はてなブログ</ExternalLink></li>
-            <li>AtCoder(休止中): <ExternalLink href="https://atcoder.jp/users/fabon">fabon</ExternalLink></li>
             <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
         </ul>
 
