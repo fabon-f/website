@@ -73,6 +73,8 @@ export default data =>
             <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
             <li>ブログ: <ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></li>
             <li>GitHub: <ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></li>
+            <li>Zenn: <ExternalLink href="https://zenn.dev/fabon">fabon</ExternalLink></li>
+            <li>Qiita: <ExternalLink href="https://qiita.com/fabon">fabon</ExternalLink></li>
             <li>ErogameScape: <ExternalLink href="https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/user_infomation.php?user=fabon">fabon</ExternalLink></li>
             <li>Discord: fabon#5185</li>
             <li>GitLab.com: <ExternalLink href="https://gitlab.com/fabon">fabon</ExternalLink></li>
