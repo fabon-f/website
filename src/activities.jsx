@@ -29,9 +29,9 @@ export default data =>
             <li>
                 パソコン研究部の部誌に寄稿(2017/18/19年)
                 <ul>
-                    <li>2017年: パーサコンビネータとJSONパーサの実装(フルスクラッチ)</li>
-                    <li>2018年: 文字列検索アルゴリズム(KMP法、接尾辞配列、マルチキークイックソート)</li>
-                    <li>2019年: 部誌執筆を支える技術(<ExternalLink href="https://reviewml.org/ja/">Re:VIEW</ExternalLink>、CI、Gitによる共同執筆・編集、プロジェクト管理)</li>
+                    <li>2017年: パーサコンビネータとJSONパーサの実装(フルスクラッチ) <ExternalLink href="https://www.npca.jp/magazine/2017/hinata.html">適当に構文解析する話(575)</ExternalLink></li>
+                    <li>2018年: 文字列検索アルゴリズム(KMP法、接尾辞配列、マルチキークイックソート) <ExternalLink href="https://www.npca.jp/magazine/2018/hinata.html">すばやい文字列の探しかた</ExternalLink></li>
+                    <li>2019年: 部誌執筆を支える技術(<ExternalLink href="https://reviewml.org/ja/">Re:VIEW</ExternalLink>、CI、Gitによる共同執筆・編集、プロジェクト管理) <ExternalLink href="https://www.npca.jp/magazine/2019/hinata.html">NPCAの部誌執筆を支える技術</ExternalLink></li>
                 </ul>
             </li>
             <li>化学研究部の部誌に寄稿(2017年)</li>
