@@ -68,6 +68,9 @@ export default data =>
             <li>2021年5月 艦これ二次創作SS<ExternalLink href="https://kukancolle.hatenablog.com/entry/2021/05/12/190000">「冬を送り、春を迎え」</ExternalLink> (ソ連艦たちがマースレニツァを祝ってブリヌイを作る話)</li>
             <li>2021年6月 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2021/06/09/012615">「東大生猪瀬舞概念に関する試論(要約版)」</ExternalLink> (もしも恋する小惑星の猪瀬舞が東大に入ったら?という話)</li>
             <li>2021年6月 恋する小惑星評論「東大生猪瀬舞概念」(恋する小惑星オンリーイベント<ExternalLink href="https://project-d.biz/douga/">キラキラアーカイブ</ExternalLink>初出の<ExternalLink href="https://utkiraracircle.github.io/koias">東大恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-1">「#FindOurStars Vol.1」</ExternalLink>寄稿、上記のブログの発展版)</li>
+            <li>2021年10月 艦これ二次創作SS<ExternalLink href="https://kukancolle.hatenablog.com/entry/2021/10/11/190000">「あなたの名前は?」</ExternalLink></li>
+            <li>2021年10月 恋する小惑星二次創作小説<ExternalLink href="https://www.pixiv.net/novel/show.php?id=16190901">「拝啓、海の向こうの空へ」</ExternalLink></li>
+            <li>2021年10月 「まちカドまぞく vs. ウクライナ語警察」(<ExternalLink href="https://utkiraracircle.github.io">東京大学きらら同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/micare-1">「Micare Vol.1」</ExternalLink>寄稿)、恋する小惑星二次創作小説「ナナチカ探偵団と不可能な虹」「拝啓、海の向こうの空へ」(<ExternalLink href="https://utkiraracircle.github.io/koias">東京大学恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-2">「#FindOurStars Vol.2」</ExternalLink>寄稿)</li>
         </ul>
         <h1>リンク</h1>
         <ul>
