@@ -9,3 +9,7 @@ main {
     margin: 0 auto;
     padding: 7px;
 }
+
+img {
+    max-width: 100%;
+}

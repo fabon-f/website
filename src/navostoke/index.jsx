@@ -3,6 +3,15 @@ import { ExternalLink, WebpImage } from "../../lib/components.tsx"
 export const title = "サークル「ナヴァストーケ」"
 export const description = "ふぁぼんの個人サークル「ナヴァストーケ」の公式サイト"
 
+function imageElement(opt) {
+    const imgPath= `/img/navostoke/events/${opt.src}`
+    if (opt.type === "webp") {
+        return <WebpImage {...opt} src={imgPath} />
+    } else {
+        return <img {...opt} src={imgPath} />
+    }
+}
+
 export default data => {
     const books = data.series.filter(series => Array.isArray(series.books)).map(series =>
         <div>
@@ -16,6 +25,8 @@ export default data => {
             <h3>{event.name}{` (${event.status})` || ""}</h3>
             {event.url && <ExternalLink href={event.url}>イベント公式サイト</ExternalLink>}
             <p>開催日: <time dateTime={event.date}>{`${event.date.replaceAll("-", "/")}`}</time></p>
+            {event.img && <a href={`./events/${event.id}`}>{imageElement(event.img)}</a>}
+            {event.id && <p><a href={`./events/${event.id}`}>イベント参加情報</a></p>}
         </div>
     );
     return <main role="main">
