@@ -1,6 +1,8 @@
 stylesheet: navostoke
 layout: layouts/layout_navostoke.jsx
 ogImage: /img/navostoke/logo.png
+twitterCardType: summary_large_image
+
 series:
   -
     name: ロシア語警察24時
