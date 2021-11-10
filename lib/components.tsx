@@ -1,5 +1,4 @@
-// @deno-types="https://denopkg.com/soremwar/deno_types/react/v16.13.1/react.d.ts"
-import React from "https://dev.jspm.io/react";
+import React from "https://deno.land/x/react_deno@17.0.2/react.ts";
 
 export const ExternalLink = ({href, icon = true, children, ...props}: { href: string, icon?: boolean, children: React.ReactNode }) => {
     // https://iconmonstr.com/external-link-thin-svg/
