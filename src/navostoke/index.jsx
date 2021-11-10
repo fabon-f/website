@@ -11,6 +11,13 @@ export default data => {
             {series.books && series.books.map(book => <div><a href={book.id}>{book.name}</a>{book.published || " (未発売)"}</div>)}
         </div>
     )
+    const events = data.events.map(event =>
+        <div>
+            <h3>{event.name}{` (${event.status})` || ""}</h3>
+            {event.url && <ExternalLink href={event.url}>イベント公式サイト</ExternalLink>}
+            <p>開催日: <time dateTime={event.date}>{`${event.date.replaceAll("-", "/")}`}</time></p>
+        </div>
+    );
     return <main role="main">
         <div id="center_logo">
             <picture>
@@ -28,6 +35,9 @@ export default data => {
 
         <h2>作品一覧</h2>
         {books}
+
+        <h2>参加イベント一覧</h2>
+        {events}
 
         <section id="special_thanks">
             <h2>Special Thanks</h2>

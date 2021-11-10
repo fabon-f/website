@@ -12,3 +12,10 @@ series:
         published: false
   -
     name: その他(非シリーズもの)
+
+events:
+  -
+    name: COMITIA139
+    date: "2022-02-20"
+    url: https://www.comitia.co.jp
+    status: 参加予定
