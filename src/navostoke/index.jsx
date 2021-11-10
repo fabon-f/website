@@ -24,7 +24,7 @@ export default data => {
         <p>評論・情報系の本がメインですが、一次/二次創作の小説も出すかもしれません。</p>
         <p>※サークル名の「ナヴァストーケ」はロシア語で「на востоке」すなわち「東で」を意味します。</p>
 
-        <ExternalLink href="https://navostoke.booth.pm">BOOTH(通販)</ExternalLink>
+        <ExternalLink href="https://navostoke.booth.pm">BOOTH(通販・ダウンロード販売)</ExternalLink>
 
         <h2>作品一覧</h2>
         {books}
