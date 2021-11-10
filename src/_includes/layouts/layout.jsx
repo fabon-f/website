@@ -8,9 +8,9 @@ function cssLinks(stylesheet) {
     }
 }
 
-export default ({ children, title, description, url, stylesheet, ogImage, twitterCardType }, filters) =>{
+export default ({ children, title, description, url, stylesheet, ogImage, twitterCardType, bareTitle }, filters) =>{
     const siteName = "ふぁぼんのホームページ";
-    const fullTitle = title ? `${title} | ${siteName}` : siteName;
+    const fullTitle = bareTitle ? title : (title ? `${title} | ${siteName}` : siteName);
     const fullUrl = filters.url(url, true);
     return <html lang="ja">
     <head>
