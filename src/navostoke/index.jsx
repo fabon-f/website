@@ -12,6 +12,13 @@ export default data => {
         </div>
     )
     return <main role="main">
+        <div id="center_logo">
+            <picture>
+                <source srcSet="/img/navostoke/logo.webp" width="772" height="435" type="image/webp" />
+                <source srcSet="/img/navostoke/logo.png" width="772" height="435" type="image/png" />
+                <img src="/img/navostoke/logo.png" width="772" height="435" alt="ナヴァストーケのアイコン" />
+            </picture>
+        </div>
         <h1>サークル「ナヴァストーケ」</h1>
         <p>ふぁぼんの個人サークルです。科学、コンピュータ、ロシア語、旧ソ連、鉄道や船やバスや旅行など、節操なしにいろいろ書きます。</p>
         <p>評論・情報系の本がメインですが、一次/二次創作の小説も出すかもしれません。</p>
