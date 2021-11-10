@@ -28,5 +28,10 @@ export default data => {
 
         <h2>作品一覧</h2>
         {books}
+
+        <section id="special_thanks">
+            <h2>Special Thanks</h2>
+            <p>ロゴデザイン: <ExternalLink href="https://awomomiji.tumblr.com">あをもみじ</ExternalLink> さん</p>
+        </section>
     </main>
 }
