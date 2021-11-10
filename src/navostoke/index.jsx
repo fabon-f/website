@@ -8,7 +8,7 @@ export default data => {
         <div>
             <h3>{series.name}</h3>
             {series.description && <p>{series.description}</p>}
-            {series.books && series.books.map(book => <div><a href={book.id}>{book.name}</a></div>)}
+            {series.books && series.books.map(book => <div><a href={book.id}>{book.name}</a>{book.published || " (未発売)"}</div>)}
         </div>
     )
     return <main role="main">

@@ -9,5 +9,6 @@ series:
       -
         name: vol. 1 人名エトセトラ
         id: russian-police-1
+        published: false
   -
     name: その他(非シリーズもの)
