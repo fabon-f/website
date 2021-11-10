@@ -1,4 +1,14 @@
-export default ({ children, title, description, url }, filters) =>{
+function cssLinks(stylesheet) {
+    if (stylesheet === undefined) {
+        return undefined;
+    } else if (typeof stylesheet === "string") {
+        return <link rel="stylesheet" href={`/css/${stylesheet}.css`} />;
+    } else {
+        return stylesheet.map(f => <link rel="stylesheet" href={`/css/${f}.css`} />);
+    }
+}
+
+export default ({ children, title, description, url, stylesheet }, filters) =>{
     const siteName = "ふぁぼんのホームページ";
     const fullTitle = title ? `${title} | ${siteName}` : siteName;
     const fullUrl = filters.url(url, true);
@@ -16,6 +26,7 @@ export default ({ children, title, description, url }, filters) =>{
         <meta name="twitter:site" content="@syobon_hinata" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/css/common.css" />
+        {cssLinks(stylesheet)}
         <title>{fullTitle}</title>
     </head>
     <body>
