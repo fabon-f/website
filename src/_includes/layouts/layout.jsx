@@ -8,7 +8,7 @@ function cssLinks(stylesheet) {
     }
 }
 
-export default ({ children, title, description, url, stylesheet }, filters) =>{
+export default ({ children, title, description, url, stylesheet, ogImage }, filters) =>{
     const siteName = "ふぁぼんのホームページ";
     const fullTitle = title ? `${title} | ${siteName}` : siteName;
     const fullUrl = filters.url(url, true);
@@ -20,7 +20,7 @@ export default ({ children, title, description, url, stylesheet }, filters) =>{
         <meta name="description" content={description || siteName} />
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={description || siteName} />
-        <meta property="og:image" content={filters.url("/img/fabon.png", true)} />
+        <meta property="og:image" content={filters.url(ogImage || "/img/fabon.png", true)} />
         <meta property="og:url" content={fullUrl} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@syobon_hinata" />
