@@ -6,6 +6,10 @@
     margin-top: 80px;
 }
 
+main section {
+    margin: 40px 0;
+}
+
 #footer {
     background-color: #CCC;
     width: 100%;

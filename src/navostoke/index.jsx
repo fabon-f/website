@@ -26,18 +26,24 @@ export default data => {
                 <img src="/img/navostoke/logo.png" width="772" height="435" alt="ナヴァストーケのアイコン" />
             </picture>
         </div>
-        <h1>サークル「ナヴァストーケ」</h1>
-        <p>ふぁぼんの個人サークルです。科学、コンピュータ、ロシア語、旧ソ連、鉄道や船やバスや旅行など、節操なしにいろいろ書きます。</p>
-        <p>評論・情報系の本がメインですが、一次/二次創作の小説も出すかもしれません。</p>
-        <p>※サークル名の「ナヴァストーケ」はロシア語で「на востоке」すなわち「東で」を意味します。</p>
+        <section>
+            <h1>サークル「ナヴァストーケ」</h1>
+            <p>ふぁぼんの個人サークルです。科学、コンピュータ、ロシア語、旧ソ連、鉄道や船やバスや旅行など、節操なしにいろいろ書きます。</p>
+            <p>評論・情報系の本がメインですが、一次/二次創作の小説も出すかもしれません。</p>
+            <p>※サークル名の「ナヴァストーケ」はロシア語で「на востоке」すなわち「東で」を意味します。</p>
+        </section>
 
         <ExternalLink href="https://navostoke.booth.pm">BOOTH(通販・ダウンロード販売)</ExternalLink>
 
-        <h2>作品一覧</h2>
-        {books}
+        <section>
+            <h2>作品一覧</h2>
+            {books}
+        </section>
 
-        <h2>参加イベント一覧</h2>
-        {events}
+        <section>
+            <h2>参加イベント一覧</h2>
+            {events}
+        </section>
 
         <section id="special_thanks">
             <h2>Special Thanks</h2>
