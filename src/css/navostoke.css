@@ -10,6 +10,11 @@ main section {
     margin: 40px 0;
 }
 
+#center_logo img {
+    max-width: 100%;
+    height: auto;
+}
+
 #footer {
     background-color: #CCC;
     width: 100%;
