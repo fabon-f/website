@@ -1,13 +1,10 @@
-import { ExternalLink } from "../lib/components.tsx"
+import { ExternalLink, WebpImage } from "../lib/components.tsx"
 
 export default data =>
     <main role="main">
         <h1>ふぁぼん(ファボン・イリイチ・ファヴォルスキー)</h1>
-        <picture>
-            <source srcSet="img/fabon.webp" width="300" height="300" type="image/webp" />
-            <source srcSet="img/fabon.png" width="300" height="300" type="image/png" />
-            <img src="img/fabon.png" width="300" height="300" alt="ふぁぼんのアイコン" />
-        </picture>
+        <WebpImage src="img/fabon" width="300" height="300" alt="ふぁぼんのアイコン" />
+
         <p>オタク。めざせ文理両道インテリゲーンツィヤ</p>
         <h1>経歴</h1>
         <p>神戸市東灘区の某中高→東京大学理科一類(22組、既修ロシア語/初修中国語)</p>

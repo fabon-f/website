@@ -1,4 +1,4 @@
-import { ExternalLink } from "../../lib/components.tsx"
+import { ExternalLink, WebpImage } from "../../lib/components.tsx"
 
 export const title = "サークル「ナヴァストーケ」"
 export const description = "ふぁぼんの個人サークル「ナヴァストーケ」の公式サイト"
@@ -20,11 +20,7 @@ export default data => {
     );
     return <main role="main">
         <div id="center_logo">
-            <picture>
-                <source srcSet="/img/navostoke/logo.webp" width="772" height="435" type="image/webp" />
-                <source srcSet="/img/navostoke/logo.png" width="772" height="435" type="image/png" />
-                <img src="/img/navostoke/logo.png" width="772" height="435" alt="ナヴァストーケのアイコン" />
-            </picture>
+            <WebpImage src="/img/navostoke/logo" width="772" height="435" alt="ナヴァストーケのアイコン" />
         </div>
         <section>
             <h1>サークル「ナヴァストーケ」</h1>
