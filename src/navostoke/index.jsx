@@ -20,7 +20,7 @@ export default data => {
             {series.books && series.books.map(book => <div><a href={book.id}>{book.name}</a>{book.published || " (未発売)"}</div>)}
         </div>
     )
-    const events = data.events.map(event =>
+    const futureEvents = data.events.filter(event => Date.now() - Date.parse(`${event.date}T23:59:59+0900`) < 0).map(event =>
         <div>
             <h3>{event.name}{` (${event.status})` || ""}</h3>
             {event.url && <ExternalLink href={event.url}>イベント公式サイト</ExternalLink>}
@@ -48,8 +48,8 @@ export default data => {
         </section>
 
         <section>
-            <h2>参加イベント一覧</h2>
-            {events}
+            <h2>今後のサークル参加予定</h2>
+            {futureEvents}
         </section>
 
         <section id="special_thanks">
