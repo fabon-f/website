@@ -29,6 +29,12 @@ export default data => {
             {event.id && <p><a href={`./events/${event.id}`}>イベント参加情報</a></p>}
         </div>
     );
+    const pastEvents = data.events.filter((event => Date.now() - Date.parse(`${event.date}T23:59:59+0900`) >= 0));
+    pastEvents.reverse();
+    const pastEventElements = pastEvents.slice(0, 5).map(event => <li>
+        {event.id ? <a href={`./events/${event.id}`}>{event.name}</a> : <span>{event.name}</span>}
+    </li>);
+    const isEventAll = pastEvents.length === pastEventElements.length;
     return <main role="main">
         <div id="center_logo">
             <WebpImage src="/img/navostoke/logo" width="772" height="435" alt="ナヴァストーケのアイコン" />
@@ -50,6 +56,12 @@ export default data => {
         <section>
             <h2>今後のサークル参加予定</h2>
             {futureEvents}
+        </section>
+
+        <section>
+            <h2>過去のサークル参加情報</h2>
+            {pastEventElements.length === 0 ? <p>過去の参加イベントはありません。</p> : pastEventElements}
+            {isEventAll || <a href="./events/">全て見る</a>}
         </section>
 
         <section id="special_thanks">
