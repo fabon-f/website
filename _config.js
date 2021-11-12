@@ -7,7 +7,7 @@ const site = lume({
 });
 site.use(jsx());
 
-for (const path of ["img", "css", "favicon.ico", "404.html"]) {
+for (const path of ["img", "css", "favicon.ico", "404.html", "_redirects"]) {
     site.copy(path)
 }
 

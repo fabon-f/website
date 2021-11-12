@@ -17,7 +17,7 @@ export default data => {
         <div>
             <h3>{series.name}</h3>
             {series.description && <p>{series.description}</p>}
-            {series.books && series.books.map(book => <div><a href={book.id}>{book.name}</a>{book.published || " (未発売)"}</div>)}
+            {series.books && series.books.map(book => <div><a href={`./books/${book.id}`}>{book.name}</a>{book.published || " (未発売)"}</div>)}
         </div>
     )
     const futureEvents = data.events.filter(event => Date.now() - Date.parse(`${event.date}T23:59:59+0900`) < 0).map(event =>
