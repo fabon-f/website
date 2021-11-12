@@ -7,6 +7,7 @@ export default ({ children, title, ...props }, filters) => {
             <a href="/navostoke/"><img src="/img/navostoke/logotype.svg" alt="ナヴァストーケ トップページ" height="60" width="160" /></a>
             <nav>
                 <ul className="header_nav_links">
+                    <li><a href="/navostoke/about/">サークル概要</a></li>
                     <li><a href="/navostoke/contact/">連絡先・リンク</a></li>
                     <li><ExternalLink href="https://navostoke.booth.pm" icon={false}>通販・DL販売</ExternalLink></li>
                 </ul>
