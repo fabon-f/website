@@ -17,7 +17,7 @@ export default data => {
         <div>
             <h3>{series.name}</h3>
             {series.description && <p>{series.description}</p>}
-            {series.books && series.books.map(book => <div><a href={`./works/${book.id}`}>{book.name}</a>{book.published || " (未発売)"}</div>)}
+            {series.books && series.books.map(book => <div><a href={`./works/${book.id}/`}>{book.name}</a>{book.published || " (未発売)"}</div>)}
         </div>
     )
     const futureEvents = data.events.filter(event => Date.now() - Date.parse(`${event.date}T23:59:59+0900`) < 0).map(event =>
@@ -25,14 +25,14 @@ export default data => {
             <h3>{event.name}{` (${event.status})` || ""}</h3>
             {event.url && <ExternalLink href={event.url}>イベント公式サイト</ExternalLink>}
             <p>開催日: <time dateTime={event.date}>{`${event.date.replaceAll("-", "/")}`}</time></p>
-            {event.img && <a href={`./events/${event.id}`}>{imageElement(event.img)}</a>}
-            {event.id && <p><a href={`./events/${event.id}`}>イベント参加情報</a></p>}
+            {event.img && <a href={`./events/${event.id}/`}>{imageElement(event.img)}</a>}
+            {event.id && <p><a href={`./events/${event.id}/`}>イベント参加情報</a></p>}
         </div>
     );
     const pastEvents = data.events.filter((event => Date.now() - Date.parse(`${event.date}T23:59:59+0900`) >= 0));
     pastEvents.reverse();
     const pastEventElements = pastEvents.slice(0, 5).map(event => <li>
-        {event.id ? <a href={`./events/${event.id}`}>{event.name}</a> : <span>{event.name}</span>}
+        {event.id ? <a href={`./events/${event.id}/`}>{event.name}</a> : <span>{event.name}</span>}
     </li>);
     const isEventAll = pastEvents.length === pastEventElements.length;
     return <main role="main">
