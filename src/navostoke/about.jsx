@@ -17,7 +17,7 @@ export default data =>
             <blockquote>
                 <p>東では 東では<br/>月のない空なんてありえない<br/>東では 東では<br/>チャイハナのない人生なんてありえない</p>
             </blockquote>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kJLFBrcZFPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kJLFBrcZFPc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </section>
 
         <section id="special_thanks">
