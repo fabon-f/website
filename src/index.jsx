@@ -22,7 +22,15 @@ export default data =>
 
         <h1>所属</h1>
         <h2>同人サークル</h2>
-        <ExternalLink href="https://navostoke.fabon.info" icon={false}><WebpImage src="/img/navostoke/logo" width="300" height="169" alt="ナヴァストーケ" /></ExternalLink>
+        <ExternalLink href="https://navostoke.fabon.info" icon={false}>
+            <picture>
+                <source srcSet="/img/navostoke/logo_dark.webp" width="300" height="169" type="image/webp" media="(prefers-color-scheme: dark)" />
+                <source srcSet="/img/navostoke/logo_dark.png" width="300" height="169" type="image/png" media="(prefers-color-scheme: dark)" />
+                <source srcSet="/img/navostoke/logo.webp" width="300" height="169" type="image/webp" />
+                <source srcSet="/img/navostoke/logo.png" width="300" height="169" type="image/png" />
+                <img src="/img/navostoke/logo.png" width="300" height="169" alt="ナヴァストーケ" />
+            </picture>
+        </ExternalLink>
 
         <h2>サークル</h2>
         <ul>

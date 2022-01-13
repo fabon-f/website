@@ -13,3 +13,13 @@ main {
 img {
     max-width: 100%;
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #161821;
+        color: #d2d4de;
+    }
+    a {
+        color: #91acd1;
+    }
+}
