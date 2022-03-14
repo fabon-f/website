@@ -100,6 +100,9 @@ export default data =>
             <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
         </ul>
 
+        <h1>ウィッシュリスト</h1>
+        <p><a href="https://www.amazon.co.jp/hz/wishlist/ls/JIGLE0ETY74L">ふぁぼんの干芋のリスト</a></p>
+
         <h1>駄文図書館</h1>
         <p>自分語り、オタクの早口、性癖開示、限界奇行紀行、その他諸々。どうしようもなく暇なときの暇潰し程度にはなりそうな駄文の集合。</p>
         <p><a href="/library/">読む</a></p>
