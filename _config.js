@@ -15,7 +15,7 @@ site.use(parcelCss({
 }));
 
 for (const path of ["img", "favicon.ico", "404.html", "_redirects", "_headers"]) {
-    site.copy(path)
+    site.copy(path);
 }
 
 function addDoctype(page) {
@@ -26,6 +26,6 @@ function addDoctype(page) {
 
 site.process([".html"], addDoctype);
 
-site.ignore("404.html")
+site.ignore("404.html");
 
 export default site;
