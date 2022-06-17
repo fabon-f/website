@@ -5,6 +5,12 @@ export const description = "ふぁぼんの主な活動"
 
 export default data =>
     <main>
+        <h2>2022年</h2>
+        <ul>
+            <li><time dateTime="2022-02-20">2月20日</time> 個人サークル<ExternalLink href="https://navostoke.fabon.info">「ナヴァストーケ」</ExternalLink>で<ExternalLink href="https://www.comitia.co.jp/html/139.html">COMITIA139</ExternalLink>へ参加、新刊「<ExternalLink href="https://navostoke.fabon.info/works/russian-police-1/">ロシア語警察24時 vol.1 人名エトセトラ</ExternalLink>」を頒布</li>
+            <li>4月 東京大学文学部 西洋史学専修へ進学</li>
+        </ul>
+
         <h2>2021年</h2>
         <ul>
             <li><time dateTime="2021-03-05">3月5日</time>〜<time dateTime="2021-03-07">7日</time> <ExternalLink href="https://esolang-codegolf.hiromi-mi.jp/contests/7">第7回Esolang Codegolf Contest</ExternalLink> に参加(<ExternalLink href="https://github.com/hakatashi/esolang-battle/wiki/%E7%AC%AC7%E5%9B%9EEsolang-Codegolf-Contest-Writeup">writeup</ExternalLink>)</li>

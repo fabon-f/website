@@ -8,7 +8,7 @@ export default data =>
         <p>オタク。めざせ文理両道インテリゲーンツィヤ</p>
         <h1>経歴</h1>
         <p>神戸市東灘区の某中高→東京大学 理科一類(22組、既修ロシア語)→東京大学文学部人文学科 西洋史学専修</p>
-        <p>2001年生まれ。大阪生まれ大阪育ち。2020年から東京都在住。2021年現在大学2年生(かつ2回生)。</p>
+        <p>2001年生まれ。大阪生まれ大阪育ち。2020年から東京都在住。2022年現在大学3年生(かつ3回生)。</p>
 
         <h1>興味・関心</h1>
         <p>雑食。メインは化学、コンピュータ、ロシア語、歴史学、旧ソ連地域研究。あと数学、物理学、言語学、政治学、社会学、倫理学……</p>
@@ -65,8 +65,12 @@ export default data =>
         <h1>各種作ったもの</h1>
         <ul>
             <li>このサイト (ソース: <ExternalLink href="https://github.com/fabon-f/website">GitHub</ExternalLink>)</li>
-            <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">エロゲーマーのための変換用IME辞書 eroge-ime-dic</ExternalLink></li>
+            <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">eroge-ime-dic</ExternalLink> (エロゲーマーのための変換用IME辞書)</li>
             <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
+            <li><ExternalLink href="https://github.com/fabon-f/difftance">difftance</ExternalLink> (具体的なdiffではなく編集距離を出力するdiffツール)</li>
+            <li><ExternalLink href="https://github.com/fabon-f/bf-esomer">Esomer</ExternalLink> (Ruby製のbrainfuckコンパイラ)</li>
+            <li><ExternalLink href="https://github.com/fabon-f/sb2re">sb2re</ExternalLink> (Scrapbox記法をRe:VIEW記法に変換するツール)</li>
+            <li><ExternalLink href="https://github.com/fabon-f/tensha.js">tensha.js</ExternalLink> (ロシア語等の外国語を日本語に転写・翻字するJavaScriptライブラリ)</li>
         </ul>
         <h1>各種書いたもの</h1>
         <ul>
@@ -75,10 +79,11 @@ export default data =>
             <li>2020年9月 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2020/09/03/020939">進振りアテンション</ExternalLink> 如月アテンション東大バージョン。「枠を奪う話。」</li>
             <li>2021年5月 艦これ二次創作SS<ExternalLink href="https://kukancolle.hatenablog.com/entry/2021/05/12/190000">「冬を送り、春を迎え」</ExternalLink> (ソ連艦たちがマースレニツァを祝ってブリヌイを作る話)</li>
             <li>2021年6月 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2021/06/09/012615">「東大生猪瀬舞概念に関する試論(要約版)」</ExternalLink> (もしも恋する小惑星の猪瀬舞が東大に入ったら?という話)</li>
-            <li>2021年6月 恋する小惑星評論「東大生猪瀬舞概念」(恋する小惑星オンリーイベント<ExternalLink href="https://project-d.biz/douga/">キラキラアーカイブ</ExternalLink>初出の<ExternalLink href="https://utkiraracircle.github.io/koias">東大恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-1">「#FindOurStars Vol.1」</ExternalLink>寄稿、上記のブログの発展版)</li>
+            <li>2021年6月 恋する小惑星評論「<ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/06/12/190000">東大生猪瀬舞概念</ExternalLink>」(恋する小惑星オンリーイベント<ExternalLink href="https://project-d.biz/douga/">キラキラアーカイブ</ExternalLink>初出の<ExternalLink href="https://utkiraracircle.github.io/koias">東大恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-1">「#FindOurStars Vol.1」</ExternalLink>寄稿、上記のブログの発展版)</li>
             <li>2021年10月 艦これ二次創作SS<ExternalLink href="https://kukancolle.hatenablog.com/entry/2021/10/11/190000">「あなたの名前は?」</ExternalLink></li>
             <li>2021年10月 恋する小惑星二次創作小説<ExternalLink href="https://www.pixiv.net/novel/show.php?id=16190901">「拝啓、海の向こうの空へ」</ExternalLink></li>
             <li>2021年10月 「まちカドまぞく vs. ウクライナ語警察」(<ExternalLink href="https://utkiraracircle.github.io">東京大学きらら同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/micare-1">「Micare Vol.1」</ExternalLink>寄稿)、恋する小惑星二次創作小説「ナナチカ探偵団と不可能な虹」「拝啓、海の向こうの空へ」(<ExternalLink href="https://utkiraracircle.github.io/koias">東京大学恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-2">「#FindOurStars Vol.2」</ExternalLink>寄稿)</li>
+            <li>2022年2月 同人誌「<ExternalLink href="https://navostoke.fabon.info/works/russian-police-1/">ロシア語警察24時 vol.1 人名エトセトラ</ExternalLink>」</li>
         </ul>
         <h1>リンク</h1>
         <ul>
