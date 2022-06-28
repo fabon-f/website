@@ -39,6 +39,7 @@ export default data =>
             <li><ExternalLink href="https://utkiraracircle.github.io/">東京大学きらら同好会</ExternalLink></li>
             <li><ExternalLink href="https://twitter.com/ut_vinos">東京大学ビジュアルノベル同好会 UT-ViNos</ExternalLink></li>
             <li><ExternalLink href="https://twitter.com/kukancolle">京都大学艦これ同好会(京艦同、インカレ)</ExternalLink></li>
+            <li><ExternalLink href="https://twitter.com/kuvnlovers">京大美少女ゲーム同好会(京美同、インカレ)</ExternalLink></li>
         </ul>
         <h2>その他</h2>
         <ul>
@@ -106,7 +107,7 @@ export default data =>
         </ul>
 
         <h1>ウィッシュリスト</h1>
-        <p><a href="https://www.amazon.co.jp/hz/wishlist/ls/JIGLE0ETY74L">ふぁぼんの干芋のリスト</a></p>
+        <p><ExternalLink href="https://www.amazon.co.jp/hz/wishlist/ls/JIGLE0ETY74L">ふぁぼんの干芋のリスト</ExternalLink></p>
 
         <h1>駄文図書館</h1>
         <p>自分語り、オタクの早口、性癖開示、限界奇行紀行、その他諸々。どうしようもなく暇なときの暇潰し程度にはなりそうな駄文の集合。</p>
