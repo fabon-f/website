@@ -26,6 +26,4 @@ function addDoctype(page) {
 
 site.process([".html"], addDoctype);
 
-site.ignore("404.html");
-
 export default site;
