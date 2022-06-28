@@ -43,19 +43,21 @@ export default data =>
         </ul>
         <h2>その他</h2>
         <ul>
-            <li>東京大学教養学部 前期課程 理科一類</li>
             <li><ExternalLink href="https://www.chemistry.or.jp">日本化学会</ExternalLink> ジュニア会員(毎月「化学と工業」が家に届く 諸事情と歴史的経緯……)</li>
+            <li>東京大学文学部人文学科 西洋史学専修 (2022-)</li>
         </ul>
 
         <h2>所属(過去形)</h2>
         <ul>
-            <li>中高の化学研究部(2014-2020)</li>
-            <li>中高のパソコン研究部(2014-2020)</li>
+            <li>中高の<ExternalLink href="https://kaken-sec-room.jimdofree.com/">化学研究部</ExternalLink> (2014-2020)</li>
+            <li>中高の<ExternalLink href="https://npca.jp/">パソコン研究部</ExternalLink> (2014-2020)</li>
+            <li>東京大学教養学部 前期課程 理科一類 (2020-2022)</li>
         </ul>
 
         <h1>実績・資格</h1>
         <ul>
-            <li>英検2級、TOEIC L&R 795点(2017年5月)</li>
+            <li>英検2級</li>
+            <li>TOEIC L&R 795点(2017年5月)</li>
             <li><ExternalLink href="https://www.ioi-jp.org/">日本情報オリンピック(JOI)</ExternalLink>本選 2015/2016, 2016/2017, 2018/2019</li>
             <li><ExternalLink href="https://gp.csj.jp">化学グランプリ</ExternalLink>本選 2016(銅賞)、2019(銅賞)</li>
             <li><ExternalLink href="https://icho.csj.jp">国際化学オリンピック</ExternalLink>代表選考 2016(1次選考落ち), 2017(最終(2次)選考落ち)</li>
@@ -80,6 +82,7 @@ export default data =>
             <li>Twitter(メイン): <ExternalLink href="https://twitter.com/syobon_hinata">@syobon_hinata</ExternalLink></li>
             <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
             <li>ブログ: <ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></li>
+            <li>pixiv: <ExternalLink href="https://www.pixiv.net/users/10536791">ふぁぼん</ExternalLink></li>
             <li>GitHub: <ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></li>
             <li>GitLab.com: <ExternalLink href="https://gitlab.com/fabon">fabon</ExternalLink></li>
             <li>Zenn: <ExternalLink href="https://zenn.dev/fabon">fabon</ExternalLink></li>
