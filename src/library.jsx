@@ -15,6 +15,10 @@ export default data =>
             <li>ウクライナ戦争の見通しの暗さについて開戦直後に書いたやつ <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/03/01/213126">露宇戦争に関する旧ソ連オタクのお気持ち詰め合わせセット</ExternalLink></li>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2018/12/12/170440">穏やかで浄化されるきららアニメED曲 10選</ExternalLink></li>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2018/10/24/190724">ロシア語の格変化を効率的にマスターする方法 part1</ExternalLink></li>
+            <li>NDCの各分類から1冊ずつ選び、偏りがないブックリスト(100冊)を作ってみた</li>
+            <ul>
+                <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/07/02/183000">【前編】</ExternalLink></li>
+            </ul>
         </ul>
 
         <h2>クール美少女文庫</h2>
