@@ -84,6 +84,7 @@ export default data =>
             <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
             <li>ブログ: <ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></li>
             <li>pixiv: <ExternalLink href="https://www.pixiv.net/users/10536791">ふぁぼん</ExternalLink></li>
+            <li>pixivFANBOX: <ExternalLink href="https://fabon.fanbox.cc/">ふぁぼん</ExternalLink></li>
             <li>GitHub: <ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></li>
             <li>GitLab.com: <ExternalLink href="https://gitlab.com/fabon">fabon</ExternalLink></li>
             <li>Zenn: <ExternalLink href="https://zenn.dev/fabon">fabon</ExternalLink></li>
