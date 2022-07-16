@@ -10,6 +10,3 @@ else
     # local environment
     lume
 fi
-
-# Workaround
-cp src/_headers src/_redirects _site/
