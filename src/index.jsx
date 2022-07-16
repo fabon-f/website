@@ -74,7 +74,7 @@ export default data =>
             <li><ExternalLink href="https://github.com/fabon-f/bf-esomer">Esomer</ExternalLink> (Ruby製のbrainfuckコンパイラ)</li>
             <li><ExternalLink href="https://github.com/fabon-f/sb2re">sb2re</ExternalLink> (Scrapbox記法をRe:VIEW記法に変換するツール)</li>
             <li><ExternalLink href="https://github.com/fabon-f/tensha.js">tensha.js</ExternalLink> (ロシア語等の外国語を日本語に転写・翻字するJavaScriptライブラリ)</li>
-            <li><ExternalLink href="https://fabon-f.github.io/soviet-placenames/">Soviet Placenames</ExternalLink> (旧ソ連地名データベース&検索ツール)</li>
+            <li><ExternalLink href="https://lab.fabon.info/soviet-placenames/">Soviet Placenames</ExternalLink> (旧ソ連地名データベース&検索ツール)</li>
         </ul>
         <h1><a href="/writings/">各種書いたもの</a></h1>
 
@@ -98,6 +98,7 @@ export default data =>
             <li>読書感想記事: <ExternalLink href="https://yuyusuki.hatenablog.com/archive/category/%E6%9C%AC%E3%81%AE%E6%84%9F%E6%83%B3">はてなブログ</ExternalLink></li>
             <li>Wikipedia: <ExternalLink href="https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Chlorobenzen">Chlorobenzen</ExternalLink></li>
             <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
+            <li>ちょっとした成果物の展示室: <ExternalLink href="https://lab.fabon.info">fabon Lab</ExternalLink></li>
         </ul>
 
         <h1>ウィッシュリスト</h1>
