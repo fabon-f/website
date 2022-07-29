@@ -21,7 +21,7 @@ h2 {
     margin-top: 2em;
 }
 
-li + li {
+li + li, ul + li, li + ul {
     margin-top: 0.5em;
 }
 
