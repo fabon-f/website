@@ -6,9 +6,8 @@ export default data =>
         <WebpImage src="img/fabon" width="300" height="300" alt="ふぁぼんのアイコン" />
 
         <p>オタク。めざせ文理両道インテリゲーンツィヤ</p>
-        <h1>経歴</h1>
-        <p>神戸市東灘区の某中高→東京大学 理科一類(22組、既修ロシア語)→東京大学文学部人文学科 西洋史学専修</p>
-        <p>2001年生まれ。大阪生まれ大阪育ち。2020年から東京都在住。2022年現在大学3年生(かつ3回生)。</p>
+
+        <p><a href="/profile/">真面目なプロフィール</a></p>
 
         <h1>興味・関心</h1>
         <p>雑食。言語とコンピュータと人文学が好き。一応の専門はロシア語とソ連史(になる予定)。</p>
@@ -54,15 +53,6 @@ export default data =>
             <li>東京大学教養学部 前期課程 理科一類 (2020-2022)</li>
         </ul>
 
-        <h1>実績・資格</h1>
-        <ul>
-            <li>英検2級</li>
-            <li>TOEIC L&R 795点(2017年5月)</li>
-            <li><ExternalLink href="https://www.ioi-jp.org/">日本情報オリンピック(JOI)</ExternalLink>本選 2015/2016, 2016/2017, 2018/2019</li>
-            <li><ExternalLink href="https://gp.csj.jp">化学グランプリ</ExternalLink>本選 2016(銅賞)、2019(銅賞)</li>
-            <li><ExternalLink href="https://icho.csj.jp">国際化学オリンピック</ExternalLink>代表選考 2016(1次選考落ち), 2017(最終(2次)選考落ち)</li>
-        </ul>
-
         <h1><a href="/activities/">活動</a></h1>
 
         <h1>各種作ったもの</h1>
@@ -99,6 +89,15 @@ export default data =>
             <li>Wikipedia: <ExternalLink href="https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Chlorobenzen">Chlorobenzen</ExternalLink></li>
             <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
             <li>ちょっとした成果物の展示室: <ExternalLink href="https://lab.fabon.info">fabon Lab</ExternalLink></li>
+        </ul>
+
+        <h1>相互(とは限らない)リンク</h1>
+        <p>敬称略。</p>
+        <ul>
+            <li><ExternalLink href="https://www.haxibami.net/">haxibami.net</ExternalLink> (haxibami)</li>
+            <li><ExternalLink href="https://sno2wman.net/">sno2wman.net </ExternalLink> (sno2wman)</li>
+            <li><ExternalLink href="https://awomomiji.tumblr.com/">青葉小路</ExternalLink> (あをもみじ)</li>
+            <li><ExternalLink href="https://mikanixonable.github.io/" icon={false}><img src="https://mikanixonable.github.io/banner.png" width="200" height="40" alt="人造日本人" /></ExternalLink> (みかぶる)</li>
         </ul>
 
         <h1>ウィッシュリスト</h1>
