@@ -21,15 +21,20 @@ export default data =>
 
         <h1>所属</h1>
         <h2>同人サークル</h2>
-        <ExternalLink href="https://navostoke.fabon.info" icon={false}>
-            <picture>
-                <source srcSet="/img/navostoke/logo_dark.webp" width="300" height="169" type="image/webp" media="(prefers-color-scheme: dark)" />
-                <source srcSet="/img/navostoke/logo_dark.png" width="300" height="169" type="image/png" media="(prefers-color-scheme: dark)" />
-                <source srcSet="/img/navostoke/logo.webp" width="300" height="169" type="image/webp" />
-                <source srcSet="/img/navostoke/logo.png" width="300" height="169" type="image/png" />
-                <img src="/img/navostoke/logo.png" width="300" height="169" alt="ナヴァストーケ" />
-            </picture>
-        </ExternalLink>
+        <p>
+            <ExternalLink href="https://navostoke.fabon.info" icon={false}>
+                <picture>
+                    <source srcSet="/img/navostoke/logo_dark.webp" width="300" height="169" type="image/webp" media="(prefers-color-scheme: dark)" />
+                    <source srcSet="/img/navostoke/logo_dark.png" width="300" height="169" type="image/png" media="(prefers-color-scheme: dark)" />
+                    <source srcSet="/img/navostoke/logo.webp" width="300" height="169" type="image/webp" />
+                    <source srcSet="/img/navostoke/logo.png" width="300" height="169" type="image/png" />
+                    <img src="/img/navostoke/logo.png" width="300" height="169" alt="ナヴァストーケ" />
+                </picture>
+            </ExternalLink>
+        </p>
+        <p>
+            <ExternalLink href="https://miyakosoft.com/" icon={false}><img src="/img/miyakosoft_logo.svg" alt="みやこそふと" width="300" height="150" /></ExternalLink>
+        </p>
 
         <h2>サークル</h2>
         <ul>
@@ -58,6 +63,8 @@ export default data =>
         <h1>各種作ったもの</h1>
         <ul>
             <li>このサイト (ソース: <ExternalLink href="https://github.com/fabon-f/website">GitHub</ExternalLink>)</li>
+            <li>個人サークル「<ExternalLink href="https://navostoke.fabon.info">ナヴァストーケ</ExternalLink>」の公式サイト (ソース: <ExternalLink href="https://github.com/fabon-f/navostoke-website">GitHub</ExternalLink>)</li>
+            <li>サークル「<ExternalLink href="https://miyakosoft.com">みやこそふと</ExternalLink>」の公式サイト (Gatsby + Cloudflare Pages)</li>
             <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">eroge-ime-dic</ExternalLink> (エロゲーマーのための変換用IME辞書)</li>
             <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
             <li><ExternalLink href="https://github.com/fabon-f/difftance">difftance</ExternalLink> (具体的なdiffではなく編集距離を出力するdiffツール)</li>

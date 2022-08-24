@@ -18,7 +18,9 @@ export default data =>
             <li>NDCの各分類から1冊ずつ選び、偏りがないブックリスト(100冊)を作ってみた</li>
             <ul>
                 <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/07/02/183000">【前編】</ExternalLink></li>
+                <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/21/183000">【後編】</ExternalLink></li>
             </ul>
+            <li>小学生レベルの算数と理科で斜方投射を分析する方法。45度飛距離最長の証明もあるよ! <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/24/183000">小学生でも分かる斜方投射</ExternalLink></li>
         </ul>
 
         <h2>クール美少女文庫</h2>
@@ -43,6 +45,7 @@ export default data =>
             <li>私がロシア語に出会った日 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2020/06/17/183743">学士の異常な愛情 または私は如何にして心配するのを止めてロシア語を愛するようになったか</ExternalLink></li>
             <li>新元号「令和」発表記念、クール美少女とゆるふわ美少女の百合の尊さに関する考察<br /><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2019/04/01/232956">私が特別尊いと思うキャラクター(特に女の子同士)の組み合わせについて</ExternalLink></li>
             <li>受験ナメプ記録 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2020/05/30/230752">東大合格体験記 検閲なし版</ExternalLink></li>
+            <li>小学生の私が力学の斜方投射を分析したときの思考ログを記憶からサルベージ。小学生レベルゆえ三角関数すら出てこないので、三角関数不要論者にもおすすめ。 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/24/183000">小学生でも分かる斜方投射</ExternalLink></li>
         </ul>
         <h2>謎</h2>
         <p>怪文書などその他どうしようもない文章たち</p>
