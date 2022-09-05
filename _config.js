@@ -1,12 +1,12 @@
 import lume from "lume/mod.ts";
-import jsx from "lume/plugins/jsx.ts";
+import preact from "lume/plugins/jsx_preact.ts";
 import parcelCss from "lume/plugins/parcel_css.ts";
 
 const site = lume({
     src: "src",
     location: new URL("https://www.fabon.info"),
 });
-site.use(jsx());
+site.use(preact());
 site.use(parcelCss({
     options: {
         analyzeDependencies: true,
