@@ -3,5 +3,10 @@
     "compilerOptions": {
         "jsx": "react-jsx",
         "jsxImportSource": "preact"
+    },
+    "tasks": {
+        "lume": "deno eval \"import 'lume/task.ts'\" --",
+        "build": "deno task lume",
+        "serve": "deno task lume -s"
     }
 }
