@@ -72,6 +72,7 @@ export default data =>
             <li><ExternalLink href="https://github.com/fabon-f/sb2re">sb2re</ExternalLink> (Scrapbox記法をRe:VIEW記法に変換するツール)</li>
             <li><ExternalLink href="https://github.com/fabon-f/tensha.js">tensha.js</ExternalLink> (ロシア語等の外国語を日本語に転写・翻字するJavaScriptライブラリ)</li>
             <li><ExternalLink href="https://lab.fabon.info/soviet-placenames/">Soviet Placenames</ExternalLink> (旧ソ連地名データベース&検索ツール)</li>
+            <li><ExternalLink href="https://github.com/fabon-f/remark-denden-ruby">remark-denden-ruby</ExternalLink> (<ExternalLink href="https://conv.denshochan.com/markdown">でんでんマークダウン</ExternalLink>のルビ記法をサポートするremarkプラグイン)</li>
         </ul>
         <h1><a href="/writings/">各種書いたもの</a></h1>
 
