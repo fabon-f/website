@@ -47,6 +47,7 @@ export default data =>
         </ul>
         <h2>その他</h2>
         <ul>
+            <li><ExternalLink href="https://mocha.t.u-tokyo.ac.jp/">MOCHA</ExternalLink>開発チーム(web) (2021-)</li>
             <li><ExternalLink href="https://www.chemistry.or.jp">日本化学会</ExternalLink> ジュニア会員(毎月「化学と工業」が家に届く 諸事情と歴史的経緯……)</li>
             <li>東京大学文学部人文学科 西洋史学専修 (2022-)</li>
         </ul>
