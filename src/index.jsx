@@ -77,7 +77,7 @@ export default data =>
         </ul>
         <h1><a href="/writings/">各種書いたもの</a></h1>
 
-        <h1>リンク</h1>
+        <h1 id="links">リンク</h1>
         <ul>
             <li>Twitter(メイン): <ExternalLink href="https://twitter.com/syobon_hinata">@syobon_hinata</ExternalLink></li>
             <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
