@@ -78,9 +78,17 @@ export default data =>
         <h1><a href="/writings/">各種書いたもの</a></h1>
 
         <h1 id="links">リンク</h1>
+        <section>
+            <h2>連絡先</h2>
+            <ul>
+                <li>Twitter(メイン): <ExternalLink href="https://twitter.com/syobon_hinata">@syobon_hinata</ExternalLink></li>
+                <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
+                <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
+                <li>Discord: fabon#5185</li>
+            </ul>
+        </section>
+        <h2>その他のリンク</h2>
         <ul>
-            <li>Twitter(メイン): <ExternalLink href="https://twitter.com/syobon_hinata">@syobon_hinata</ExternalLink></li>
-            <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
             <li>ブログ: <ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></li>
             <li>pixiv: <ExternalLink href="https://www.pixiv.net/users/10536791">ふぁぼん</ExternalLink></li>
             <li>pixivFANBOX: <ExternalLink href="https://fabon.fanbox.cc/">ふぁぼん</ExternalLink></li>
@@ -90,14 +98,13 @@ export default data =>
             <li>Qiita: <ExternalLink href="https://qiita.com/fabon">fabon</ExternalLink></li>
             <li>AtCoder(休止中): <ExternalLink href="https://atcoder.jp/users/fabon">fabon</ExternalLink></li>
             <li>ErogameScape: <ExternalLink href="https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/user_infomation.php?user=fabon">fabon</ExternalLink></li>
-            <li>Discord: fabon#5185</li>
             <li>Annict: <ExternalLink href="https://annict.jp/@fabon">fabon</ExternalLink></li>
             <li>読書メーター: <ExternalLink href="https://bookmeter.com/users/968503">ふぁぼん</ExternalLink></li>
             <li>ブクログ: <ExternalLink href="https://booklog.jp/users/fabon">fabon</ExternalLink></li>
             <li>読書感想記事: <ExternalLink href="https://yuyusuki.hatenablog.com/archive/category/%E6%9C%AC%E3%81%AE%E6%84%9F%E6%83%B3">はてなブログ</ExternalLink></li>
             <li>Wikipedia: <ExternalLink href="https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Chlorobenzen">Chlorobenzen</ExternalLink></li>
-            <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
             <li>ちょっとした成果物の展示室: <ExternalLink href="https://lab.fabon.info">fabon Lab</ExternalLink></li>
+            <li>書いた・翻訳した文章の置き場 <ExternalLink href="https://l.fabon.info">ファヴォルスキー・アルヒーフ</ExternalLink></li>
         </ul>
 
         <h1>相互(とは限らない)リンク</h1>
