@@ -71,5 +71,13 @@ export default data =>
                 <li>恋する小惑星の猪瀬舞さんは東大生です。 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/06/12/190000"> 【全文公開】東大生猪瀬舞概念【#FindOurStars vol.1】 </ExternalLink></li>
             </ul>
         </section>
+
+        <section>
+            <h2>他媒体に書いたもの</h2>
+            <ul>
+                <li><ExternalLink href="https://kukancolle.hatenablog.com/entry/2022/04/24/192535">きらら作品を読もう!</ExternalLink></li>
+                <li><ExternalLink href="https://kuvnlovers.hatenablog.com/entry/2022/03/12/191928">「時計仕掛けのレイライン」をやれば、人生がもっと豊かになります。</ExternalLink></li>
+            </ul>
+        </section>
         <a href="/">トップへ</a>
     </main>;
