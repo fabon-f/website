@@ -23,7 +23,7 @@ export default () => <main>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2018/10/12/173521">「ロシア革命と中央アジア」</ExternalLink> (素人高校生のレポートにつき取り扱い注意)</li>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2020/01/21/130303">「ソ連軍歌概説」</ExternalLink></li>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/06/12/190000">「東大生猪瀬舞概念」</ExternalLink> (<ExternalLink href="https://utkiraracircle.github.io/koias">東大恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-1">『#FindOurStars Vol.1』</ExternalLink>寄稿)</li>
-            <li>「まちカドまぞく vs. ウクライナ語警察」 (<ExternalLink href="https://utkiraracircle.github.io">東京大学きらら同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/micare-1">『Micare Vol.1』</ExternalLink>寄稿)</li>
+            <li>「<ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/10/30/173000">まちカドまぞく vs. ウクライナ語警察</ExternalLink>」 (<ExternalLink href="https://utkiraracircle.github.io">東京大学きらら同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/micare-1">『Micare Vol.1』</ExternalLink>寄稿)</li>
             <li>同人誌 <ExternalLink href="https://navostoke.fabon.info/works/russian-police-1/">『ロシア語警察24時 vol.1 人名エトセトラ』</ExternalLink></li>
             <li>「那由多誰何の倫理学入門」 (<ExternalLink href="https://twitter.com/be_straighter">びストレーター</ExternalLink>様主催の合同誌<ExternalLink href="https://twitter.com/be_straighter/status/1555509013634289664">『まちカドまぞく評論合同 まちカドのお楽しみ』</ExternalLink>寄稿)</li>
         </ul>
