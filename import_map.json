@@ -3,8 +3,8 @@
         "lume": "https:/deno.land/x/lume@v1.12.1/mod.ts",
         "lume/": "https:/deno.land/x/lume@v1.12.1/",
         "https://deno.land/x/lume/": "https:/deno.land/x/lume@v1.12.1/",
-        "preact": "https://esm.sh/preact@10.10.6",
-        "preact/jsx-runtime": "https://esm.sh/preact@10.10.6/jsx-runtime",
-        "preact/jsx-dev-runtime": "https://esm.sh/preact@10.10.6/jsx-dev-runtime"
+        "preact": "https://esm.sh/preact@10.11.2",
+        "preact/jsx-runtime": "https://esm.sh/preact@10.11.2/jsx-runtime",
+        "preact/jsx-dev-runtime": "https://esm.sh/preact@10.11.2/jsx-dev-runtime"
     }
 }
