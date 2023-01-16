@@ -105,6 +105,7 @@ export default data =>
         <h2>その他のリンク</h2>
             <ul>
                 <li>ブログ: <ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></li>
+                <li>週記(週ごとに書く日記 ブログ2みたいなもの): <ExternalLink href="https://diary.fabon.info">Hebdomadary</ExternalLink></li>
                 <li>pixiv: <ExternalLink href="https://www.pixiv.net/users/10536791">ふぁぼん</ExternalLink></li>
                 <li>pixivFANBOX: <ExternalLink href="https://fabon.fanbox.cc/">ふぁぼん</ExternalLink></li>
                 <li>GitHub: <ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></li>
