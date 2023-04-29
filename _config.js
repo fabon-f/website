@@ -18,12 +18,4 @@ for (const path of ["img", "favicon.ico", "404.html", "_redirects", "_headers"])
     site.copy(path);
 }
 
-function addDoctype(page) {
-    if (!page.content.trim().startsWith("<!DOCTYPE")) {
-        page.content = `<!DOCTYPE html>${page.content}`;
-    }
-}
-
-site.process([".html"], addDoctype);
-
 export default site;
