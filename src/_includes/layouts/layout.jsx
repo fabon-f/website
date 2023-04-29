@@ -14,9 +14,8 @@ export default ({ children, title, description, url, stylesheet, ogImage, twitte
     const fullUrl = filters.url(url, true);
     return <html lang="ja">
     <head>
-        <meta charSet="UTF-8" />
+        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <meta name="description" content={description || siteName} />
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={description || siteName} />

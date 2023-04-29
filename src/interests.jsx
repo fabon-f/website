@@ -12,8 +12,10 @@ export default data =>
             <ul>
                 <li>2014年、JavaScriptからプログラミングの道に入る。プログラミング歴{Math.round((new Date - new Date("2014-09-01")) / (365 * 24 * 60 * 60 * 1000))}年。</li>
                 <li><ExternalLink href="https://www.ruby-lang.org/ja/">Ruby</ExternalLink>, <ExternalLink href="https://www.typescriptlang.org">TypeScript</ExternalLink>, <ExternalLink href="https://crystal-lang.org">Crystal</ExternalLink></li>
-                <li>CUI、シェルスクリプト、シェル芸、<ExternalLink href="https://archlinux.org/">Arch Linux</ExternalLink></li>
-                <ul><li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li></ul>
+                <li>
+                    CUI、シェルスクリプト、シェル芸、<ExternalLink href="https://archlinux.org/">Arch Linux</ExternalLink>
+                    <ul><li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li></ul>
+                </li>
                 <li>コードゴルフ</li>
                 <li>VS Code使い。たまにVimもいじる。</li>
                 <li>競プロはやっていない。始める機運がゼロではないが……</li>

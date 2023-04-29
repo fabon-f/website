@@ -1,7 +1,7 @@
 import { ExternalLink, WebpImage } from "../lib/components.tsx"
 
 export default data =>
-    <main role="main">
+    <main>
         <h1>ふぁぼん(ファボン・イリイチ・ファヴォルスキー)</h1>
         <WebpImage src="img/fabon" width="300" height="300" alt="ふぁぼんのアイコン" />
 
@@ -33,12 +33,12 @@ export default data =>
                         <source srcSet="/img/navostoke/logo_dark.png" width="300" height="169" type="image/png" media="(prefers-color-scheme: dark)" />
                         <source srcSet="/img/navostoke/logo.webp" width="300" height="169" type="image/webp" />
                         <source srcSet="/img/navostoke/logo.png" width="300" height="169" type="image/png" />
-                        <img src="/img/navostoke/logo.png" width="300" height="169" alt="ナヴァストーケ" />
+                        <img src="/img/navostoke/logo.png" width="300" height="169" alt="ナヴァストーケ" decoding="async" />
                     </picture>
                 </ExternalLink>
             </p>
             <p>
-                <ExternalLink href="https://miyakosoft.com/" icon={false}><img src="/img/miyakosoft_logo.svg" alt="みやこそふと" width="300" height="150" /></ExternalLink>
+                <ExternalLink href="https://miyakosoft.com/" icon={false}><img src="/img/miyakosoft_logo.svg" alt="みやこそふと" width="300" height="150" decoding="async" /></ExternalLink>
             </p>
         </section>
 
@@ -131,7 +131,7 @@ export default data =>
                 <li><ExternalLink href="https://www.haxibami.net/">haxibami.net</ExternalLink> (haxibami)</li>
                 <li><ExternalLink href="https://sno2wman.net/">sno2wman.net </ExternalLink> (sno2wman)</li>
                 <li><ExternalLink href="https://awomomiji.tumblr.com/">青葉小路</ExternalLink> (あをもみじ)</li>
-                <li><ExternalLink href="https://mikanixonable.github.io/" icon={false}><img src="https://mikanixonable.github.io/banner.png" width="200" height="40" alt="人造日本人" /></ExternalLink> (みかぶる)</li>
+                <li><ExternalLink href="https://mikanixonable.github.io/" icon={false}><img src="https://mikanixonable.github.io/banner.png" width="200" height="40" alt="人造日本人" decoding="async" /></ExternalLink> (みかぶる)</li>
                 <li><ExternalLink href="https://taisa.site/">Bibliotheca Pan Magica</ExternalLink> (大佐)</li>
             </ul>
         </section>

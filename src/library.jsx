@@ -16,11 +16,13 @@ export default data =>
                 <li>ウクライナ戦争の見通しの暗さについて開戦直後に書いたやつ <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/03/01/213126">露宇戦争に関する旧ソ連オタクのお気持ち詰め合わせセット</ExternalLink></li>
                 <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2018/12/12/170440">穏やかで浄化されるきららアニメED曲 10選</ExternalLink></li>
                 <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2018/10/24/190724">ロシア語の格変化を効率的にマスターする方法 part1</ExternalLink></li>
-                <li>NDCの各分類から1冊ずつ選び、偏りがないブックリスト(100冊)を作ってみた</li>
-                <ul>
-                    <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/07/02/183000">【前編】</ExternalLink></li>
-                    <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/21/183000">【後編】</ExternalLink></li>
-                </ul>
+                <li>
+                    NDCの各分類から1冊ずつ選び、偏りがないブックリスト(100冊)を作ってみた
+                    <ul>
+                        <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/07/02/183000">【前編】</ExternalLink></li>
+                        <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/21/183000">【後編】</ExternalLink></li>
+                    </ul>
+                </li>
                 <li>小学生レベルの算数と理科で斜方投射を分析する方法。45度飛距離最長の証明もあるよ! <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/24/183000">小学生でも分かる斜方投射</ExternalLink></li>
                 <li>京都大学艦これ同好会のブログできらら作品を布教(私は京大生ではない なぜ??) <ExternalLink href="https://kukancolle.hatenablog.com/entry/2022/04/24/192535">きらら作品を読もう!</ExternalLink></li>
                 <li>ぼっち・ざ・ろっく! 挿入歌の歌詞からアニメを考える <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/12/06/184500">誰が「あのバンド」を書いたのか？</ExternalLink></li>
