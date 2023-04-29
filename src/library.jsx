@@ -6,6 +6,7 @@ export const description = "ふぁぼんが書いた駄文の集合"
 export default data =>
     <main>
         <h1>駄文図書館</h1>
+        <p>真面目な文章は<a href="/writings/">こちら</a>。</p>
 
         <section>
             <h2>多少有意義なやつ</h2>
@@ -60,6 +61,7 @@ export default data =>
                 <li>受験ナメプ記録 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2020/05/30/230752">東大合格体験記 検閲なし版</ExternalLink></li>
                 <li>小学生の私が力学の斜方投射を分析したときの思考ログを記憶からサルベージ。小学生レベルゆえ三角関数すら出てこないので、三角関数不要論者にもおすすめ。 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/24/183000">小学生でも分かる斜方投射</ExternalLink></li>
                 <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/01/09/183000">とある言語情報偏重オタクの世界観について</ExternalLink></li>
+                <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/03/30/180000">語学ができない症候群</ExternalLink></li>
             </ul>
         </section>
 

@@ -18,7 +18,7 @@ export default () => <main>
     </section>
 
     <section>
-        <h2>評論</h2>
+        <h2>小説以外</h2>
         <ul>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2018/10/12/173521">「ロシア革命と中央アジア」</ExternalLink> (素人高校生のレポートにつき取り扱い注意)</li>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2020/01/21/130303">「ソ連軍歌概説」</ExternalLink></li>

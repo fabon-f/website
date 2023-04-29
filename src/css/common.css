@@ -1,7 +1,25 @@
+:root {
+    --color-bg: #FFF;
+    --color-fg: #222;
+    --color-link: blue;
+    --color-border: #22222250;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg: #161821;
+        --color-fg: #d2d4de;
+        --color-link: #91acd1;
+        --color-border: #d2d4de80;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Hiragino Sans, Meiryo, sans-serif;
+    color: var(--color-fg);
+    background-color: var(--color-bg);
 }
 
 main {
@@ -42,12 +60,18 @@ img, video {
     max-width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #161821;
-        color: #d2d4de;
-    }
-    a {
-        color: #91acd1;
-    }
+a {
+    color: var(--color-link);
+}
+
+table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+tr {
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+td, th {
+    padding: 0.5em;
 }

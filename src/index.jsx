@@ -1,31 +1,61 @@
 import { ExternalLink, WebpImage } from "../lib/components.tsx"
 
+export const stylesheet = ["index"]
+
 export default data =>
     <main>
-        <h1>ふぁぼん(ファボン・イリイチ・ファヴォルスキー)</h1>
-        <WebpImage src="img/fabon" width="300" height="300" alt="ふぁぼんのアイコン" />
-
-        <p>オタク。めざせ文理両道インテリゲーンツィヤ</p>
-
-        <p><a href="/profile/">真面目なプロフィール</a></p>
+        <section class="identity-section">
+            <div class="identity">
+                <WebpImage src="img/fabon" width="150" height="150" alt="ふぁぼんのアイコン" />
+                <h1>ふぁぼん</h1>
+            </div>
+            <p class="identity-aka">a.k.a. ファボン・イリイチ・ファヴォルスキー (Фабон Ильич Фаворский)</p>
+        </section>
 
         <section>
-            <h1>興味・関心</h1>
-            <p>雑食。言語とコンピュータと人文学が好き。一応の専門はロシア語とソ連史(になる予定)。</p>
+            <h2>プロフィール</h2>
+            <p>文章と物語とソフトウェアを書きます。論理と感情が好き。</p>
+            <p>めざせ文理両道インテリゲーンツィヤ</p>
+            <p><a href="/profile/">所属・経歴</a></p>
+        </section>
+
+        <section>
+            <h2>興味・関心</h2>
+            <p>雑食。言語とコンピュータと人文学が好き。本業は近現代ロシア史。</p>
             <p><a href="/interests/">もっと詳しく</a></p>
         </section>
 
         <section>
-            <h1>趣味</h1>
-            <p>いろいろ。そこそこ多趣味。</p>
+            <h2><a href="/writings/">書いた文章</a></h2>
+            <p>真面目なものからネタに全力投球したものまで。各種の小説、評論、随筆、その他。</p>
+        </section>
+
+        <section>
+            <h2>作ったソフトウェア</h2>
+            <ul>
+                <li>個人サークル「<ExternalLink href="https://navostoke.fabon.info">ナヴァストーケ</ExternalLink>」の公式サイト (ソース: <ExternalLink href="https://github.com/fabon-f/navostoke-website">GitHub</ExternalLink>)</li>
+                <li>サークル「<ExternalLink href="https://miyakosoft.com">みやこそふと</ExternalLink>」の公式サイト (Gatsby + Cloudflare Pages)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">eroge-ime-dic</ExternalLink> (エロゲーマーのための変換用IME辞書)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
+                <li><ExternalLink href="https://github.com/fabon-f/difftance">difftance</ExternalLink> (具体的なdiffではなく編集距離を出力するdiffツール)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/bf-esomer">Esomer</ExternalLink> (Ruby製のbrainfuckコンパイラ)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/sb2re">sb2re</ExternalLink> (Scrapbox記法をRe:VIEW記法に変換するツール)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/tensha.js">tensha.js</ExternalLink> (ロシア語等の外国語を日本語に転写・翻字するJavaScriptライブラリ)</li>
+                <li><ExternalLink href="https://lab.fabon.info/soviet-placenames/">Soviet Placenames</ExternalLink> (旧ソ連地名データベース&検索ツール)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/remark-denden-ruby">remark-denden-ruby</ExternalLink> (<ExternalLink href="https://conv.denshochan.com/markdown">でんでんマークダウン</ExternalLink>のルビ記法をサポートするremarkプラグイン)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>趣味</h2>
             <p>好きなジャンルはノベルゲー(エロゲ含む)とその音楽、ラノベとweb小説(主にラブコメ)、ミステリ、SF、きらら作品、艦これ。頭がいいクール美少女が性癖。</p>
             <p><span style={{textDecoration: "line-through"}}>Twitter、</span>プログラミング、旅行、鉄道、駅メモ、世界各地の料理も好き。</p>
             <p><a href="/likes/">もっと詳しく</a></p>
         </section>
 
-        <h1>所属</h1>
+        <h2>所属</h2>
         <section>
-            <h2>同人サークル</h2>
+            <h3>同人サークル</h3>
             <p>
                 <ExternalLink href="https://navostoke.fabon.info" icon={false}>
                     <picture>
@@ -43,7 +73,7 @@ export default data =>
         </section>
 
         <section>
-            <h2>サークル</h2>
+            <h3>大学サークル</h3>
             <ul>
                 <li><ExternalLink href="https://tsg.ne.jp/">TSG(東大のコンピューター系サークル)</ExternalLink></li>
                 <li><ExternalLink href="https://twitter.com/ut_glossophilia">東京大学語学愛好会(インカレ)</ExternalLink></li>
@@ -53,79 +83,52 @@ export default data =>
                 <li><ExternalLink href="https://twitter.com/kuvnlovers">京大美少女ゲーム同好会(京美同、インカレ)</ExternalLink></li>
             </ul>
         </section>
-        <section>
-            <h2>その他</h2>
-            <ul>
-                <li><ExternalLink href="https://mocha.t.u-tokyo.ac.jp/">MOCHA</ExternalLink>開発チーム(web) (2021-)</li>
-                <li><ExternalLink href="https://www.chemistry.or.jp">日本化学会</ExternalLink> ジュニア会員(毎月「化学と工業」が家に届く 諸事情と歴史的経緯……)</li>
-                <li>東京大学文学部人文学科 西洋史学専修 (2022-)</li>
-            </ul>
-        </section>
 
         <section>
-            <h2>所属(過去形)</h2>
+            <h3>所属(過去形)</h3>
             <ul>
                 <li>中高の<ExternalLink href="https://kaken-sec-room.jimdofree.com/">化学研究部</ExternalLink> (2014-2020)</li>
                 <li>中高の<ExternalLink href="https://npca.jp/">パソコン研究部</ExternalLink> (2014-2020)</li>
-                <li>東京大学教養学部 前期課程 理科一類 (2020-2022)</li>
             </ul>
         </section>
 
-        <h1><a href="/activities/">活動</a></h1>
+        {/* <h2><a href="/activities/">活動</a></h2> */}
 
+        <h2 id="links">リンク</h2>
         <section>
-            <h1>各種作ったもの</h1>
-            <ul>
-                <li>このサイト (ソース: <ExternalLink href="https://github.com/fabon-f/website">GitHub</ExternalLink>)</li>
-                <li>個人サークル「<ExternalLink href="https://navostoke.fabon.info">ナヴァストーケ</ExternalLink>」の公式サイト (ソース: <ExternalLink href="https://github.com/fabon-f/navostoke-website">GitHub</ExternalLink>)</li>
-                <li>サークル「<ExternalLink href="https://miyakosoft.com">みやこそふと</ExternalLink>」の公式サイト (Gatsby + Cloudflare Pages)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">eroge-ime-dic</ExternalLink> (エロゲーマーのための変換用IME辞書)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
-                <li><ExternalLink href="https://github.com/fabon-f/difftance">difftance</ExternalLink> (具体的なdiffではなく編集距離を出力するdiffツール)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/bf-esomer">Esomer</ExternalLink> (Ruby製のbrainfuckコンパイラ)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/sb2re">sb2re</ExternalLink> (Scrapbox記法をRe:VIEW記法に変換するツール)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/tensha.js">tensha.js</ExternalLink> (ロシア語等の外国語を日本語に転写・翻字するJavaScriptライブラリ)</li>
-                <li><ExternalLink href="https://lab.fabon.info/soviet-placenames/">Soviet Placenames</ExternalLink> (旧ソ連地名データベース&検索ツール)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/remark-denden-ruby">remark-denden-ruby</ExternalLink> (<ExternalLink href="https://conv.denshochan.com/markdown">でんでんマークダウン</ExternalLink>のルビ記法をサポートするremarkプラグイン)</li>
-            </ul>
-        </section>
-        <h1><a href="/writings/">各種書いたもの</a></h1>
-
-        <h1 id="links">リンク</h1>
-        <section>
-            <h2>連絡先</h2>
-            <ul>
-                <li>Twitter(メイン): <ExternalLink href="https://twitter.com/syobon_hinata">@syobon_hinata</ExternalLink></li>
-                <li>Twitter(大学用人格): <ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></li>
-                <li>メール: <a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></li>
-                <li>Discord: fabon#5185</li>
-            </ul>
+            <h3>連絡先</h3>
+            <table class="links">
+                <tr><td>Twitter(メイン)</td><td><ExternalLink href="https://twitter.com/syobon_hinata">@syobon_hinata</ExternalLink></td></tr>
+                <tr><td>Twitter(大学用人格)</td><td><ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></td></tr>
+                <tr><td>メール</td><td><a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></td></tr>
+                <tr><td>Discord</td><td>fabon#5185</td></tr>
+            </table>
         </section>
         <section>
-        <h2>その他のリンク</h2>
-            <ul>
-                <li>ブログ: <ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></li>
-                <li>週記(週ごとに書く日記 ブログ2みたいなもの): <ExternalLink href="https://diary.fabon.info">Hebdomadary</ExternalLink></li>
-                <li>pixiv: <ExternalLink href="https://www.pixiv.net/users/10536791">ふぁぼん</ExternalLink></li>
-                <li>pixivFANBOX: <ExternalLink href="https://fabon.fanbox.cc/">ふぁぼん</ExternalLink></li>
-                <li>GitHub: <ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></li>
-                <li>GitLab.com: <ExternalLink href="https://gitlab.com/fabon">fabon</ExternalLink></li>
-                <li>Zenn: <ExternalLink href="https://zenn.dev/fabon">fabon</ExternalLink></li>
-                <li>Qiita: <ExternalLink href="https://qiita.com/fabon">fabon</ExternalLink></li>
-                <li>AtCoder(休止中): <ExternalLink href="https://atcoder.jp/users/fabon">fabon</ExternalLink></li>
-                <li>ErogameScape: <ExternalLink href="https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/user_infomation.php?user=fabon">fabon</ExternalLink></li>
-                <li>Annict: <ExternalLink href="https://annict.jp/@fabon">fabon</ExternalLink></li>
-                <li>読書メーター: <ExternalLink href="https://bookmeter.com/users/968503">ふぁぼん</ExternalLink></li>
-                <li>ブクログ: <ExternalLink href="https://booklog.jp/users/fabon">fabon</ExternalLink></li>
-                <li>読書感想記事: <ExternalLink href="https://yuyusuki.hatenablog.com/archive/category/%E6%9C%AC%E3%81%AE%E6%84%9F%E6%83%B3">はてなブログ</ExternalLink></li>
-                <li>Wikipedia: <ExternalLink href="https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Chlorobenzen">Chlorobenzen</ExternalLink></li>
-                <li>ちょっとした成果物の展示室: <ExternalLink href="https://lab.fabon.info">fabon Lab</ExternalLink></li>
-                <li>書いた・翻訳した文章の置き場 <ExternalLink href="https://l.fabon.info">ファヴォルスキー・アルヒーフ</ExternalLink></li>
-            </ul>
+            <h3>その他のリンク</h3>
+            <table class="links">
+                <tr><td>ブログ</td><td><ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></td></tr>
+                <tr><td>毎週の日記</td><td><ExternalLink href="https://diary.fabon.info">Hebdomadary</ExternalLink></td></tr>
+                <tr><td>pixiv</td><td><ExternalLink href="https://www.pixiv.net/users/10536791">ふぁぼん</ExternalLink></td></tr>
+                <tr><td>pixivFANBOX</td><td><ExternalLink href="https://fabon.fanbox.cc/">ふぁぼん</ExternalLink></td></tr>
+                <tr><td>GitHub</td><td><ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></td></tr>
+                <tr><td>GitLab.com</td><td><ExternalLink href="https://gitlab.com/fabon">fabon</ExternalLink></td></tr>
+                <tr><td>Zenn</td><td><ExternalLink href="https://zenn.dev/fabon">fabon</ExternalLink></td></tr>
+                <tr><td>Qiita</td><td><ExternalLink href="https://qiita.com/fabon">fabon</ExternalLink></td></tr>
+                <tr><td>Wikipedia</td><td><ExternalLink href="https://ja.wikipedia.org/wiki/%E5%88%A9%E7%94%A8%E8%80%85:Chlorobenzen">Chlorobenzen</ExternalLink></td></tr>
+                <tr><td>AtCoder(休止中)</td><td><ExternalLink href="https://atcoder.jp/users/fabon">fabon</ExternalLink></td></tr>
+                <tr><td>ErogameScape</td><td><ExternalLink href="https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/user_infomation.php?user=fabon">fabon</ExternalLink></td></tr>
+                <tr><td>Annict</td><td><ExternalLink href="https://annict.jp/@fabon">fabon</ExternalLink></td></tr>
+                <tr><td>読書メーター</td><td><ExternalLink href="https://bookmeter.com/users/968503">ふぁぼん</ExternalLink></td></tr>
+                <tr><td>ブクログ</td><td><ExternalLink href="https://booklog.jp/users/fabon">fabon</ExternalLink></td></tr>
+                <tr><td>読書感想記事</td><td><ExternalLink href="https://yuyusuki.hatenablog.com/archive/category/%E6%9C%AC%E3%81%AE%E6%84%9F%E6%83%B3">はてなブログ</ExternalLink></td></tr>
+                <tr><td>ソフトウェア展示室</td><td><ExternalLink href="https://lab.fabon.info">fabon Lab</ExternalLink></td></tr>
+                <tr><td>文章置き場</td><td><ExternalLink href="https://l.fabon.info">ファヴォルスキー・アルヒーフ</ExternalLink></td></tr>
+            </table>
         </section>
 
         <section>
-            <h1>相互(とは限らない)リンク</h1>
+            <h2>相互(とは限らない)リンク</h2>
             <p>敬称略。</p>
             <ul>
                 <li><ExternalLink href="https://www.haxibami.net/">haxibami.net</ExternalLink> (haxibami)</li>
@@ -137,12 +140,12 @@ export default data =>
         </section>
 
         <section>
-            <h1>ウィッシュリスト</h1>
+            <h2>ウィッシュリスト</h2>
             <p><ExternalLink href="https://www.amazon.co.jp/hz/wishlist/ls/JIGLE0ETY74L">ふぁぼんの干芋のリスト</ExternalLink></p>
         </section>
 
         <section>
-            <h1><a href="/library/">駄文図書館</a></h1>
+            <h2><a href="/library/">駄文図書館</a></h2>
             <p>自分語り、オタクの早口、性癖開示、限界奇行紀行、その他諸々。どうしようもなく暇なときの暇潰し程度にはなりそうな駄文の集合。</p>
         </section>
     </main>;
