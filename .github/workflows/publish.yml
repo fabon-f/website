@@ -23,3 +23,4 @@ jobs:
           accountId: 3f28d3a5c9a4bdc4a451bb2ce2ba89be
           projectName: fabon
           directory: _site
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
