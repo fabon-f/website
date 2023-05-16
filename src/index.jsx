@@ -134,7 +134,7 @@ export default data =>
                 <li><ExternalLink href="https://www.haxibami.net/">haxibami.net</ExternalLink> (haxibami)</li>
                 <li><ExternalLink href="https://sno2wman.net/">sno2wman.net </ExternalLink> (sno2wman)</li>
                 <li><ExternalLink href="https://awomomiji.tumblr.com/">青葉小路</ExternalLink> (あをもみじ)</li>
-                <li><ExternalLink href="https://mikanixonable.github.io/" icon={false}><img src="https://mikanixonable.github.io/banner.png" width="200" height="40" alt="月面植物園" decoding="async" /></ExternalLink> (みかぶる)</li>
+                <li><ExternalLink href="https://mikanixonable.github.io/" icon={false}><img src="https://mikanixonable.github.io/banner.png" width="221" height="57" alt="月面植物園" decoding="async" /></ExternalLink> (みかぶる)</li>
                 <li><ExternalLink href="https://taisa.site/">Bibliotheca Pan Magica</ExternalLink> (大佐)</li>
             </ul>
         </section>
