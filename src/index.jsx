@@ -34,7 +34,7 @@ export default data =>
             <h2>作ったソフトウェア</h2>
             <ul>
                 <li>個人サークル「<ExternalLink href="https://navostoke.fabon.info">ナヴァストーケ</ExternalLink>」の公式サイト (ソース: <ExternalLink href="https://github.com/fabon-f/navostoke-website">GitHub</ExternalLink>)</li>
-                <li>サークル「<ExternalLink href="https://miyakosoft.com">みやこそふと</ExternalLink>」の公式サイト (Gatsby + Cloudflare Pages)</li>
+                <li>サークル「<ExternalLink href="https://miyakosoft.com">みやこそふと</ExternalLink>」の公式サイト (Nuxt3 + Cloudflare Pages)</li>
                 <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">eroge-ime-dic</ExternalLink> (エロゲーマーのための変換用IME辞書)</li>
                 <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
                 <li><ExternalLink href="https://github.com/fabon-f/difftance">difftance</ExternalLink> (具体的なdiffではなく編集距離を出力するdiffツール)</li>
