@@ -101,7 +101,7 @@ export default data =>
                 <tr><td>Twitter(メイン)</td><td><ExternalLink href="https://twitter.com/syobon_hinata">@syobon_hinata</ExternalLink></td></tr>
                 <tr><td>Twitter(大学用人格)</td><td><ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></td></tr>
                 <tr><td>メール</td><td><a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></td></tr>
-                <tr><td>Discord</td><td>fabon#5185</td></tr>
+                <tr><td>Discord</td><td>fabon</td></tr>
             </table>
         </section>
         <section>

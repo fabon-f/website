@@ -11,21 +11,29 @@ export default data =>
             <p>コンピュータに関する各種理論から実際に動くソフトウェアの実装まで、レイヤの高低問わず興味あり。</p>
             <ul>
                 <li>2014年、JavaScriptからプログラミングの道に入る。プログラミング歴{Math.round((new Date - new Date("2014-09-01")) / (365 * 24 * 60 * 60 * 1000))}年。</li>
-                <li><ExternalLink href="https://www.ruby-lang.org/ja/">Ruby</ExternalLink>, <ExternalLink href="https://www.typescriptlang.org">TypeScript</ExternalLink>, <ExternalLink href="https://crystal-lang.org">Crystal</ExternalLink></li>
+                <li>好きな言語は<ExternalLink href="https://www.ruby-lang.org/ja/">Ruby</ExternalLink>, <ExternalLink href="https://www.typescriptlang.org">TypeScript</ExternalLink>, <ExternalLink href="https://crystal-lang.org">Crystal</ExternalLink></li>
                 <li>
                     CUI、シェルスクリプト、シェル芸、<ExternalLink href="https://archlinux.org/">Arch Linux</ExternalLink>
                     <ul><li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li></ul>
                 </li>
                 <li>コードゴルフ</li>
                 <li>VS Code使い。たまにVimもいじる。</li>
-                <li>競プロはやっていない。始める機運がゼロではないが……</li>
-                <li>CTFもwebに限り多少やっている。</li>
+                <li>CTFer(ただしwebだけ)</li>
             </ul>
         </section>
 
         <section>
             <h2>自然言語・外国語</h2>
-            <p>母語は日本語。非母語はロシア語しかわからん。英語は平易な文章を読んだり聞いたりはできるが、文構造が複雑な文章を読解したりまともに書いたり話したりはできない。ラテン語、中国語(普通話)、アラビア語、ウズベク語などをかじっては投げ、かじっては投げて今に至る。</p>
+            <h3>日本語</h3>
+            <p>母語。</p>
+            <h3>英語</h3>
+            <p>アカデミアで生き抜くのに必要な最低限度はできる。リーディングとリスニングはそこそこ、スピーキングも文法の破綻に目をつぶればそこそこ、ライティングと文法はやや不得意。</p>
+            <h3>ロシア語</h3>
+            <p>得意。文法に関しては英語よりもよっぽど分かる。</p>
+            <h3>ドイツ語</h3>
+            <p>スピーキングもリスニングもライティングも一切できないが、辞書があれば論文は読める。読む速度はめちゃくちゃ遅い。</p>
+            <h3>その他</h3>
+            <p>ラテン語、中国語(普通話)、アラビア語、ウズベク語などをかじっては投げ、かじっては投げて今に至る。</p>
         </section>
 
         <section>
