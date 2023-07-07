@@ -95,6 +95,7 @@ export default data =>
         {/* <h2><a href="/activities/">活動</a></h2> */}
 
         <h2 id="links">リンク</h2>
+        <a rel="me" href="https://mstdn.poyo.me/@fabon" style="display:none;">Mastodon</a>
         <section>
             <h3>連絡先</h3>
             <table class="links">
@@ -102,7 +103,7 @@ export default data =>
                 <tr><td>Twitter(大学用人格)</td><td><ExternalLink href="https://twitter.com/alisa_ut">@alisa_ut</ExternalLink></td></tr>
                 <tr><td>メール</td><td><a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></td></tr>
                 <tr><td>Discord</td><td>fabon</td></tr>
-                <tr><td>Mastodon (ActivityPub)</td><td><a rel="me" href="https://mstdn.poyo.me/@fabon">@fabon@mstdn.poyo.me </a></td></tr>
+                <tr><td>Mastodon (ActivityPub)</td><td><ExternalLink href="https://mstdn.poyo.me/@fabon">@fabon@mstdn.poyo.me </ExternalLink></td></tr>
             </table>
         </section>
         <section>
