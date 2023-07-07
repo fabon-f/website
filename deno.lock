@@ -278,7 +278,7 @@
     "https://deno.land/x/lume@v1.17.5/plugins/source_maps.ts": "6de5f075d02f56a715042f3ccceff97b35cbf525e4cdb0c51a71ca5e66e54531",
     "https://deno.land/x/lume@v1.17.5/plugins/url.ts": "43d3d47896a7322a8dd34572dedb4baa6f73a382594a2ff7c34a3a064dcc6c9e",
     "https://deno.land/x/lume@v1.17.5/plugins/yaml.ts": "df24aac4098dba258f1ac331a3b16ba488a336eb63c51afed8f59201228d583c",
-    "https://esm.sh/preact@10.15.1/jsx-runtime": "3a6250cbda44a43ba01c1c0bc8a79ff8cae167be322d24903483f3b367fe5709",
+    "https://esm.sh/preact@10.15.1/jsx-runtime": "2c75711d88680b0cae95d2c34786ac585c48edd44f8262afaa2954a383725a41",
     "https://esm.sh/stable/preact@10.15.1/denonext/jsx-runtime.js": "52806054f5b3477005ab4bdc17de3d219ccc6c130d0cd803c45667b0cac2f6ed",
     "https://esm.sh/stable/preact@10.15.1/denonext/preact.mjs": "30710ac1d5ff3711ae0c04eddbeb706f34f82d97489f61aaf09897bc75d2a628"
   },
@@ -294,8 +294,8 @@
       "preact@10.15.1": "preact@10.15.1"
     },
     "packages": {
-      "@babel/runtime@7.22.5": {
-        "integrity": "sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA==",
+      "@babel/runtime@7.22.6": {
+        "integrity": "sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==",
         "dependencies": {
           "regenerator-runtime": "regenerator-runtime@0.13.11"
         }
@@ -319,7 +319,7 @@
       "date-fns@2.30.0": {
         "integrity": "sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==",
         "dependencies": {
-          "@babel/runtime": "@babel/runtime@7.22.5"
+          "@babel/runtime": "@babel/runtime@7.22.6"
         }
       },
       "detect-libc@1.0.3": {
