@@ -1,8 +1,8 @@
 {
   "imports": {
-    "lume": "https://deno.land/x/lume@v1.17.5/mod.ts",
-    "lume/": "https://deno.land/x/lume@v1.17.5/",
-    "https://deno.land/x/lume/": "https://deno.land/x/lume@v1.17.5/",
+    "lume": "https://deno.land/x/lume@v1.18.5/mod.ts",
+    "lume/": "https://deno.land/x/lume@v1.18.5/",
+    "https://deno.land/x/lume/": "https://deno.land/x/lume@v1.18.5/",
     "preact": "https://esm.sh/preact@10.15.1",
     "preact/jsx-runtime": "https://esm.sh/preact@10.15.1/jsx-runtime",
     "preact/jsx-dev-runtime": "https://esm.sh/preact@10.15.1/jsx-dev-runtime"
