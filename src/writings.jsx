@@ -6,14 +6,18 @@ export const description = "ふぁぼんが書いた文章";
 export default () => <main>
     <h1>各種書いたもの</h1>
     <section>
+        <h2>同人活動</h2>
+        <ExternalLink href="https://navostoke.fabon.info/works/">作品一覧 | ナヴァストーケ</ExternalLink>
+    </section>
+    <section>
         <h2>小説 (二次創作)</h2>
         <ul>
             <li>艦これ <ExternalLink href="https://kukancolle.hatenablog.com/entry/2021/05/12/190000">「冬を送り、春を迎え」</ExternalLink> (ソ連艦たちがマースレニツァを祝ってブリヌイを作る話)</li>
-            <li>艦これ <ExternalLink href="https://kukancolle.hatenablog.com/entry/2021/10/11/190000">「あなたの名前は?」</ExternalLink></li>
+            <li>艦これ <ExternalLink href="https://www.pixiv.net/novel/show.php?id=20449448">「あなたの名前は?」</ExternalLink></li>
             <li>艦これ <ExternalLink href="https://www.pixiv.net/novel/show.php?id=17088933">「2月24日」</ExternalLink></li>
             <li>恋する小惑星 <ExternalLink href="https://www.pixiv.net/novel/show.php?id=16190901">「拝啓、海の向こうの空へ」</ExternalLink></li>
-            <li>恋する小惑星 「ナナチカ探偵団と不可能な虹」(<ExternalLink href="https://utkiraracircle.github.io/koias">東京大学恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-2">『#FindOurStars Vol.2』</ExternalLink>寄稿)</li>
-            <li>初恋＊れ〜るとりっぷ 「初恋＊れ〜るみすてり」(<ExternalLink href="https://utkiraracircle.github.io">東京大学きらら同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/micare-2">『Micare Vol.2』</ExternalLink>寄稿)</li>
+            <li>恋する小惑星 <ExternalLink href="https://www.pixiv.net/novel/show.php?id=18592237">「ナナチカ探偵団と不可能な虹」</ExternalLink></li>
+            <li>初恋＊れ〜るとりっぷ <ExternalLink href="https://www.pixiv.net/novel/show.php?id=20387809">「初恋＊れ〜るみすてり」</ExternalLink></li>
         </ul>
     </section>
 
@@ -25,7 +29,7 @@ export default () => <main>
             <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/06/12/190000">「東大生猪瀬舞概念」</ExternalLink> (<ExternalLink href="https://utkiraracircle.github.io/koias">東大恋する小惑星同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/find-our-stars-1">『#FindOurStars Vol.1』</ExternalLink>寄稿)</li>
             <li>「<ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/10/30/173000">まちカドまぞく vs. ウクライナ語警察</ExternalLink>」 (<ExternalLink href="https://utkiraracircle.github.io">東京大学きらら同好会</ExternalLink>合同誌<ExternalLink href="https://utkiraracircle.github.io/posts/micare-1">『Micare Vol.1』</ExternalLink>寄稿)</li>
             <li>同人誌 <ExternalLink href="https://navostoke.fabon.info/works/russian-police-1/">『ロシア語警察24時 vol.1 人名エトセトラ』</ExternalLink></li>
-            <li>「那由多誰何の倫理学入門」 (<ExternalLink href="https://twitter.com/be_straighter">びストレーター</ExternalLink>様主催の合同誌<ExternalLink href="https://twitter.com/be_straighter/status/1555509013634289664">『まちカドまぞく評論合同 まちカドのお楽しみ』</ExternalLink>寄稿)</li>
+            <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/08/17/183000">「那由多誰何の倫理学入門」</ExternalLink></li>
         </ul>
     </section>
 
