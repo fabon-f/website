@@ -62,6 +62,7 @@ export default data =>
                 <li>小学生の私が力学の斜方投射を分析したときの思考ログを記憶からサルベージ。小学生レベルゆえ三角関数すら出てこないので、三角関数不要論者にもおすすめ。 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/08/24/183000">小学生でも分かる斜方投射</ExternalLink></li>
                 <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/01/09/183000">とある言語情報偏重オタクの世界観について</ExternalLink></li>
                 <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/03/30/180000">語学ができない症候群</ExternalLink></li>
+                <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/09/09/143846">私がMacBook Airを使い続ける理由について</ExternalLink></li>
             </ul>
         </section>
 
@@ -78,6 +79,7 @@ export default data =>
                 <li>革命歌を聞いて年越ししよう! <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/01/01/213656">年越しの新定番「インターナショナル赤色歌合戦」のご提案</ExternalLink></li>
                 <li>恋する小惑星の猪瀬舞さんは東大生です。 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/06/12/190000"> 【全文公開】東大生猪瀬舞概念【#FindOurStars vol.1】 </ExternalLink></li>
                 <li>東大新入生向け二外ロシア語布教<strong>小説</strong> りろっしーもリローシャちゃんも登場するよ! <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/03/10/133000">#二外はロシア語へ</ExternalLink></li>
+                <li>ぬゆり「フィクサー」の新解釈 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/10/16/005509">原稿中に「フィクサー」を聴いてはならない</ExternalLink></li>
             </ul>
         </section>
 
