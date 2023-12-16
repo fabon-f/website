@@ -28,6 +28,7 @@ export default data =>
                 <li>京都大学艦これ同好会のブログできらら作品を布教(私は京大生ではない なぜ??) <ExternalLink href="https://kukancolle.hatenablog.com/entry/2022/04/24/192535">きらら作品を読もう!</ExternalLink></li>
                 <li>ぼっち・ざ・ろっく! 挿入歌の歌詞からアニメを考える <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/12/06/184500">誰が「あのバンド」を書いたのか？</ExternalLink></li>
                 <li>ロシアンロック入門記事 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/12/23/144500">陰キャならロックを聴け! ロシア編</ExternalLink></li>
+                <li>同人誌を納本してほしい <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/11/12/211115">国会図書館に納本するまでが文フリです</ExternalLink></li>
             </ul>
         </section>
 
@@ -80,6 +81,7 @@ export default data =>
                 <li>恋する小惑星の猪瀬舞さんは東大生です。 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2022/06/12/190000"> 【全文公開】東大生猪瀬舞概念【#FindOurStars vol.1】 </ExternalLink></li>
                 <li>東大新入生向け二外ロシア語布教<strong>小説</strong> りろっしーもリローシャちゃんも登場するよ! <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/03/10/133000">#二外はロシア語へ</ExternalLink></li>
                 <li>ぬゆり「フィクサー」の新解釈 <ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/10/16/005509">原稿中に「フィクサー」を聴いてはならない</ExternalLink></li>
+                <li><ExternalLink href="https://yuyusuki.hatenablog.com/entry/2023/12/02/000000">スロウスタートの新キャラクター名を考える</ExternalLink></li>
             </ul>
         </section>
 

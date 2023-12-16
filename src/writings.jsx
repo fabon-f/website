@@ -9,8 +9,10 @@ export default () => <main>
         <h2>同人活動</h2>
         <ExternalLink href="https://navostoke.fabon.info/works/">作品一覧 | ナヴァストーケ</ExternalLink>
     </section>
+    <h2>小説</h2>
+    <ExternalLink href="https://www.pixiv.net/users/10536791">pixiv</ExternalLink>
     <section>
-        <h2>小説 (二次創作)</h2>
+        <h3>二次創作</h3>
         <ul>
             <li>艦これ <ExternalLink href="https://kukancolle.hatenablog.com/entry/2021/05/12/190000">「冬を送り、春を迎え」</ExternalLink> (ソ連艦たちがマースレニツァを祝ってブリヌイを作る話)</li>
             <li>艦これ <ExternalLink href="https://www.pixiv.net/novel/show.php?id=20449448">「あなたの名前は?」</ExternalLink></li>
