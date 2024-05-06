@@ -110,7 +110,7 @@ export default data =>
             <h3>その他のリンク</h3>
             <table class="links">
                 <tr><td>ブログ</td><td><ExternalLink href="https://yuyusuki.hatenablog.com">天才クールスレンダー美少女になりたい</ExternalLink></td></tr>
-                <tr><td>毎週の日記</td><td><ExternalLink href="https://diary.fabon.info">Hebdomadary</ExternalLink></td></tr>
+                <tr><td>質問箱 (Googleフォーム)</td><td><ExternalLink href="https://forms.gle/ebdDAzT7evZRwyPZA">ふぁぼんの受信箱</ExternalLink></td></tr>
                 <tr><td>pixiv</td><td><ExternalLink href="https://www.pixiv.net/users/10536791">ふぁぼん</ExternalLink></td></tr>
                 <tr><td>pixivFANBOX</td><td><ExternalLink href="https://fabon.fanbox.cc/">ふぁぼん</ExternalLink></td></tr>
                 <tr><td>GitHub</td><td><ExternalLink href="https://github.com/fabon-f">fabon-f</ExternalLink></td></tr>
@@ -126,6 +126,7 @@ export default data =>
                 <tr><td>読書感想記事</td><td><ExternalLink href="https://yuyusuki.hatenablog.com/archive/category/%E6%9C%AC%E3%81%AE%E6%84%9F%E6%83%B3">はてなブログ</ExternalLink></td></tr>
                 <tr><td>ソフトウェア展示室</td><td><ExternalLink href="https://lab.fabon.info">fabon Lab</ExternalLink></td></tr>
                 <tr><td>文章置き場</td><td><ExternalLink href="https://l.fabon.info">ファヴォルスキー・アルヒーフ</ExternalLink></td></tr>
+                <tr><td>毎週の日記</td><td><ExternalLink href="https://diary.fabon.info">Hebdomadary</ExternalLink></td></tr>
             </table>
         </section>
 
