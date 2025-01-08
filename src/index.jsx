@@ -104,6 +104,7 @@ export default data =>
                 <tr><td>メール</td><td><a href="mailto:syobon.hinata.public@gmail.com">syobon.hinata.public@gmail.com</a></td></tr>
                 <tr><td>Discord</td><td>fabon</td></tr>
                 <tr><td>Mastodon (ActivityPub)</td><td><ExternalLink href="https://mstdn.poyo.me/@fabon">@fabon@mstdn.poyo.me </ExternalLink></td></tr>
+                <tr><td>Bluesky (atproto)</td><td><ExternalLink href="https://bsky.app/profile/fabon.info">@fabon.info</ExternalLink></td></tr>
             </table>
         </section>
         <section>
