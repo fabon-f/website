@@ -35,14 +35,17 @@ export default data =>
             <ul>
                 <li>個人サークル「<ExternalLink href="https://navostoke.fabon.info">ナヴァストーケ</ExternalLink>」の公式サイト (ソース: <ExternalLink href="https://github.com/fabon-f/navostoke-website">GitHub</ExternalLink>)</li>
                 <li>サークル「<ExternalLink href="https://miyakosoft.com">みやこそふと</ExternalLink>」の公式サイト (Nuxt3 + Cloudflare Pages)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">eroge-ime-dic</ExternalLink> (エロゲーマーのための変換用IME辞書)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
-                <li><ExternalLink href="https://github.com/fabon-f/difftance">difftance</ExternalLink> (具体的なdiffではなく編集距離を出力するdiffツール)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/bf-esomer">Esomer</ExternalLink> (Ruby製のbrainfuckコンパイラ)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/sb2re">sb2re</ExternalLink> (Scrapbox記法をRe:VIEW記法に変換するツール)</li>
-                <li><ExternalLink href="https://github.com/fabon-f/tensha.js">tensha.js</ExternalLink> (ロシア語等の外国語を日本語に転写・翻字するJavaScriptライブラリ)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/vremel">vremel</ExternalLink> (JSのTemporal API対応の日時操作ライブラリ)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/fetch-site-metadata">fetch-site-metadata</ExternalLink> (OGP等のデータを外部ウェブサイトから取得するJSライブラリ)</li>
                 <li><ExternalLink href="https://lab.fabon.info/soviet-placenames/">Soviet Placenames</ExternalLink> (旧ソ連地名データベース&検索ツール)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/eroge-ime-dic">eroge-ime-dic</ExternalLink> (エロゲーマーのための変換用IME辞書)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/sb2re">sb2re</ExternalLink> (Scrapbox記法をRe:VIEW記法に変換するツール)</li>
+                <li><ExternalLink href="https://lab.fabon.info/sb2re-web/">sb2re-web</ExternalLink> (sb2reのウェブUI)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/difftance">difftance</ExternalLink> (具体的なdiffではなく編集距離を出力するdiffツール)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/tensha.js">tensha.js</ExternalLink> (ロシア語等の外国語を日本語に転写・翻字するJavaScriptライブラリ)</li>
                 <li><ExternalLink href="https://github.com/fabon-f/remark-denden-ruby">remark-denden-ruby</ExternalLink> (<ExternalLink href="https://conv.denshochan.com/markdown">でんでんマークダウン</ExternalLink>のルビ記法をサポートするremarkプラグイン)</li>
+                <li><ExternalLink href="https://github.com/fabon-f/dotfiles">dotfiles</ExternalLink></li>
+                <li><ExternalLink href="https://github.com/fabon-f/bf-esomer">Esomer</ExternalLink> (Ruby製のbrainfuckコンパイラ)</li>
             </ul>
         </section>
 
