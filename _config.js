@@ -14,6 +14,8 @@ site.use(lightningCss({
     }
 }));
 
+site.add("css");
+
 for (const path of ["img", "favicon.ico", "404.html", "_redirects", "_headers"]) {
     site.copy(path);
 }
