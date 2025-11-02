@@ -2,7 +2,7 @@
   "importMap": "./import_map.json",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact",
+    "jsxImportSource": "lume",
     "types": [
       "lume/types.ts"
     ]
