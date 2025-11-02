@@ -1,6 +1,7 @@
 import lume from "lume/mod.ts";
 import jsx from "lume/plugins/jsx.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
+import sitemap from "lume/plugins/sitemap.ts";
 
 const site = lume({
     src: "src",
@@ -13,6 +14,7 @@ site.use(lightningCss({
         minify: true
     }
 }));
+site.use(sitemap());
 
 site.add("css");
 
