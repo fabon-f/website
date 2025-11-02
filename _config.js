@@ -1,12 +1,12 @@
 import lume from "lume/mod.ts";
-import preact from "lume/plugins/jsx_preact.ts";
+import jsx from "lume/plugins/jsx.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 
 const site = lume({
     src: "src",
     location: new URL("https://www.fabon.info"),
 });
-site.use(preact());
+site.use(jsx());
 site.use(lightningCss({
     options: {
         analyzeDependencies: true,
