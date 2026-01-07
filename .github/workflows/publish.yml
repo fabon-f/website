@@ -8,8 +8,10 @@ jobs:
       deployments: write
     name: Publish to Cloudflare Pages
     steps:
-      - uses: actions/checkout@v6
-      - uses: denoland/setup-deno@v2
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+        with:
+          persist-credentials: false
+      - uses: denoland/setup-deno@e95548e56dfa95d4e1a28d6f422fafe75c4c26fb # v2.0.3
         with:
           deno-version: v2.x
 
@@ -17,7 +19,7 @@ jobs:
         run: deno task build
 
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@da0e0dfe58b7a431659754fdf3f186c529afbe65 # v3.14.1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 3f28d3a5c9a4bdc4a451bb2ce2ba89be
