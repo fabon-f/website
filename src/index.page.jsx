@@ -147,6 +147,7 @@ export default data =>
                 <li><ExternalLink href="https://sueakiyama.github.io/">Le Site Web de Suika AKIYAMA</ExternalLink> (秋山翠花)</li>
                 <li><ExternalLink href="https://charlotteace.github.io">シャーロットエースの部屋</ExternalLink> (国際単位系)</li>
                 <li><ExternalLink href="https://saize-lw.hatenablog.com/">LWのサイゼリヤ</ExternalLink> (LW)</li>
+                <li><ExternalLink href="https://licjar.xyz/">licjar.xyz</ExternalLink> (りちゃ / 岬千宙)</li>
             </ul>
         </section>
 
