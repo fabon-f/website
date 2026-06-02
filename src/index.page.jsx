@@ -145,7 +145,7 @@ export default data =>
                 <li><ExternalLink href="https://taisa.site/">Bibliotheca Pan Magica</ExternalLink> (大佐)</li>
                 <li><ExternalLink href="https://gitdmnt.github.io/">宇田の家さがされ</ExternalLink> (宇田まなと)</li>
                 <li><ExternalLink href="https://sueakiyama.github.io/">Le Site Web de Suika AKIYAMA</ExternalLink> (秋山翠花)</li>
-                <li><ExternalLink href="https://charlotteace.github.io">シャーロットエースの部屋</ExternalLink> (国際単位系)</li>
+                <li><ExternalLink href="https://charlotteace.jp/">シャーロットエースの部屋</ExternalLink> (国際単位系)</li>
                 <li><ExternalLink href="https://saize-lw.hatenablog.com/">LWのサイゼリヤ</ExternalLink> (LW)</li>
                 <li><ExternalLink href="https://licjar.xyz/">licjar.xyz</ExternalLink> (りちゃ / 岬千宙)</li>
             </ul>
