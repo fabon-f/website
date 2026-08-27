@@ -148,6 +148,7 @@ export default data =>
                 <li><ExternalLink href="https://charlotteace.jp/">シャーロットエースの部屋</ExternalLink> (国際単位系)</li>
                 <li><ExternalLink href="https://saize-lw.hatenablog.com/">LWのサイゼリヤ</ExternalLink> (LW)</li>
                 <li><ExternalLink href="https://licjar.xyz/">licjar.xyz</ExternalLink> (りちゃ / 岬千宙)</li>
+                <li><ExternalLink href="https://kyuuseikoukousei.github.io/blog/">旧制もりちか高等学校</ExternalLink> (もりちか)</li>
             </ul>
         </section>
 
